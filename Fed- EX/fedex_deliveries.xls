@@ -1,0 +1,1001 @@
+ShipmentID,Origin,Destination,Pickup_Date,Distance_KM,Shipment_Mode,Weight_KG,Cost_USD,Customer_Segment,Delivery_Status,Delay_Reason,Delivery_Date
+1,Bangalore,Hyderabad,2025-01-01,61,Freight,23,1224,Government,Delayed,Customs,2025-01-07
+2,Chennai,Kolkata,2025-01-02,1391,Ground,360,1291,Government,Delivered,Weather,2025-01-03
+3,Mumbai,Pune,2025-01-03,265,Air,75,647,Business,Delayed,Operational,2025-01-09
+4,Bangalore,Pune,2025-01-04,388,Freight,48,298,Government,Delivered,Weather,2025-01-06
+5,Bangalore,Pune,2025-01-05,1849,Ground,160,896,Retail,Delayed,Customs,2025-01-14
+6,Chennai,Pune,2025-01-06,2758,Ground,313,600,Government,Delivered,Operational,2025-01-08
+7,Mumbai,Ahmedabad,2025-01-07,1800,Freight,118,882,Retail,Delayed,Customs,2025-01-14
+8,Mumbai,Pune,2025-01-08,1558,Freight,100,273,Government,Delivered,Operational,2025-01-20
+9,Bangalore,Ahmedabad,2025-01-09,2471,Freight,380,200,Business,Delayed,Customs,2025-01-10
+10,Delhi,Ahmedabad,2025-01-10,759,Freight,417,1873,Government,In Transit,Operational,2025-01-22
+11,Bangalore,Pune,2025-01-11,1273,Air,408,700,Retail,Delayed,Operational,2025-01-18
+12,Bangalore,Pune,2025-01-12,2563,Freight,167,844,Retail,Delivered,Operational,2025-01-17
+13,Bangalore,Hyderabad,2025-01-13,1162,Ground,290,1552,Government,In Transit,Operational,2025-01-21
+14,Bangalore,Kolkata,2025-01-14,1341,Ground,440,1804,Retail,Delayed,None,2025-01-18
+15,Chennai,Pune,2025-01-15,538,Air,156,719,Retail,In Transit,Customs,2025-01-27
+16,Mumbai,Hyderabad,2025-01-16,1611,Ground,421,585,Business,Delayed,Customs,2025-01-26
+17,Chennai,Hyderabad,2025-01-17,96,Ground,7,1369,Government,In Transit,None,2025-01-24
+18,Chennai,Kolkata,2025-01-18,827,Freight,196,1400,Government,Delivered,Operational,2025-01-24
+19,Chennai,Ahmedabad,2025-01-19,1089,Ground,421,1868,Government,Delayed,Operational,2025-01-24
+20,Bangalore,Pune,2025-01-20,760,Air,56,1693,Retail,Delayed,Customs,2025-01-24
+21,Delhi,Kolkata,2025-01-21,450,Freight,321,699,Government,Delivered,None,2025-01-28
+22,Mumbai,Pune,2025-01-22,1867,Freight,193,410,Government,In Transit,Operational,2025-02-03
+23,Delhi,Hyderabad,2025-01-23,299,Air,47,1658,Business,Delivered,Operational,2025-01-28
+24,Chennai,Hyderabad,2025-01-24,440,Freight,148,1977,Business,Delivered,Operational,2025-01-29
+25,Chennai,Ahmedabad,2025-01-25,384,Freight,275,1128,Business,In Transit,Weather,2025-01-26
+26,Delhi,Hyderabad,2025-01-26,678,Air,157,1360,Retail,Delivered,None,2025-01-28
+27,Delhi,Hyderabad,2025-01-27,186,Freight,202,231,Government,Delayed,Operational,2025-02-01
+28,Delhi,Kolkata,2025-01-28,2980,Air,444,1558,Business,Delayed,Weather,2025-02-10
+29,Chennai,Pune,2025-01-29,2785,Air,402,403,Business,Delayed,None,2025-02-01
+30,Chennai,Pune,2025-01-30,1571,Ground,476,1734,Business,Delivered,Operational,2025-02-13
+31,Mumbai,Kolkata,2025-01-31,876,Ground,419,361,Government,Delayed,Customs,2025-02-13
+32,Mumbai,Ahmedabad,2025-02-01,776,Freight,427,1858,Government,Delayed,Weather,2025-02-03
+33,Chennai,Pune,2025-02-02,1550,Freight,495,863,Government,Delayed,Weather,2025-02-16
+34,Delhi,Hyderabad,2025-02-03,2691,Air,479,1081,Retail,Delayed,Operational,2025-02-17
+35,Delhi,Pune,2025-02-04,1039,Freight,475,1554,Retail,Delayed,Operational,2025-02-08
+36,Mumbai,Hyderabad,2025-02-05,2469,Air,126,439,Business,Delayed,Weather,2025-02-09
+37,Chennai,Ahmedabad,2025-02-06,984,Air,395,770,Government,Delivered,Customs,2025-02-10
+38,Mumbai,Kolkata,2025-02-07,451,Freight,305,1212,Business,Delayed,Customs,2025-02-11
+39,Mumbai,Pune,2025-02-08,1516,Air,369,1952,Government,Delayed,None,2025-02-11
+40,Bangalore,Kolkata,2025-02-09,664,Ground,294,1386,Government,In Transit,Operational,2025-02-22
+41,Bangalore,Pune,2025-02-10,1346,Freight,64,1869,Government,Delivered,Customs,2025-02-22
+42,Bangalore,Hyderabad,2025-02-11,1232,Ground,325,325,Retail,Delivered,None,2025-02-18
+43,Delhi,Kolkata,2025-02-12,2717,Freight,392,1585,Retail,Delivered,Customs,2025-02-21
+44,Chennai,Pune,2025-02-13,2285,Air,418,721,Government,Delivered,Operational,2025-02-25
+45,Chennai,Hyderabad,2025-02-14,1171,Freight,176,888,Business,Delayed,None,2025-02-19
+46,Chennai,Kolkata,2025-02-15,180,Ground,116,556,Government,Delayed,None,2025-02-19
+47,Chennai,Kolkata,2025-02-16,2902,Air,440,1155,Government,In Transit,None,2025-02-27
+48,Bangalore,Pune,2025-02-17,1244,Freight,204,1454,Business,In Transit,Customs,2025-02-19
+49,Delhi,Pune,2025-02-18,232,Freight,486,1990,Government,Delivered,Operational,2025-02-20
+50,Delhi,Pune,2025-02-19,413,Freight,321,225,Business,In Transit,None,2025-02-24
+51,Bangalore,Hyderabad,2025-02-20,88,Ground,31,1228,Retail,In Transit,Weather,2025-02-27
+52,Delhi,Pune,2025-02-21,2594,Ground,388,1425,Retail,Delivered,Operational,2025-03-03
+53,Bangalore,Kolkata,2025-02-22,1422,Freight,113,515,Business,Delivered,Weather,2025-03-04
+54,Chennai,Kolkata,2025-02-23,970,Air,365,1422,Retail,In Transit,Weather,2025-03-04
+55,Bangalore,Pune,2025-02-24,2819,Air,434,1090,Retail,Delayed,None,2025-03-09
+56,Chennai,Pune,2025-02-25,65,Ground,325,1929,Business,In Transit,None,2025-03-04
+57,Chennai,Ahmedabad,2025-02-26,542,Air,414,1783,Retail,In Transit,Customs,2025-03-03
+58,Mumbai,Kolkata,2025-02-27,1499,Ground,376,1594,Government,Delayed,Customs,2025-03-09
+59,Bangalore,Hyderabad,2025-02-28,1181,Freight,344,1571,Government,Delayed,Customs,2025-03-10
+60,Mumbai,Ahmedabad,2025-03-01,2991,Ground,443,523,Business,Delivered,Operational,2025-03-11
+61,Bangalore,Pune,2025-03-02,360,Ground,67,1065,Retail,Delivered,Customs,2025-03-08
+62,Bangalore,Pune,2025-03-03,788,Freight,75,232,Government,In Transit,Weather,2025-03-14
+63,Mumbai,Kolkata,2025-03-04,595,Air,45,329,Government,Delayed,Customs,2025-03-16
+64,Mumbai,Pune,2025-03-05,2511,Ground,260,680,Retail,Delivered,None,2025-03-08
+65,Bangalore,Hyderabad,2025-03-06,300,Ground,154,772,Retail,In Transit,Customs,2025-03-11
+66,Delhi,Kolkata,2025-03-07,808,Freight,155,291,Government,Delayed,Operational,2025-03-15
+67,Chennai,Pune,2025-03-08,1854,Air,430,1614,Government,In Transit,Operational,2025-03-09
+68,Mumbai,Kolkata,2025-03-09,1347,Ground,363,1842,Business,Delivered,Weather,2025-03-21
+69,Chennai,Pune,2025-03-10,1681,Freight,448,957,Business,Delivered,Operational,2025-03-11
+70,Delhi,Pune,2025-03-11,1964,Ground,475,1245,Government,Delayed,Customs,2025-03-18
+71,Delhi,Pune,2025-03-12,863,Freight,234,51,Business,In Transit,None,2025-03-26
+72,Delhi,Hyderabad,2025-03-13,78,Air,51,462,Government,Delayed,Operational,2025-03-18
+73,Mumbai,Hyderabad,2025-03-14,1007,Air,306,181,Government,Delivered,Weather,2025-03-28
+74,Delhi,Kolkata,2025-03-15,2082,Air,262,786,Business,Delivered,Customs,2025-03-20
+75,Mumbai,Pune,2025-03-16,526,Air,315,273,Business,In Transit,Weather,2025-03-17
+76,Delhi,Pune,2025-03-17,367,Ground,125,540,Retail,In Transit,Operational,2025-03-26
+77,Chennai,Hyderabad,2025-03-18,294,Ground,399,996,Retail,In Transit,Operational,2025-03-19
+78,Chennai,Pune,2025-03-19,797,Air,245,1694,Retail,Delayed,Weather,2025-03-24
+79,Bangalore,Hyderabad,2025-03-20,746,Air,30,1523,Government,In Transit,Customs,2025-03-30
+80,Chennai,Pune,2025-03-21,321,Air,426,29,Business,In Transit,Operational,2025-03-30
+81,Bangalore,Kolkata,2025-03-22,1821,Ground,485,745,Government,Delivered,None,2025-04-05
+82,Chennai,Pune,2025-03-23,1312,Air,122,524,Business,Delivered,Operational,2025-03-27
+83,Mumbai,Pune,2025-03-24,2474,Air,125,804,Government,In Transit,Customs,2025-04-06
+84,Chennai,Ahmedabad,2025-03-25,315,Air,37,1879,Retail,In Transit,Operational,2025-04-02
+85,Bangalore,Hyderabad,2025-03-26,970,Freight,170,1603,Retail,Delivered,Weather,2025-04-01
+86,Bangalore,Pune,2025-03-27,389,Air,124,455,Retail,In Transit,Operational,2025-04-07
+87,Delhi,Pune,2025-03-28,438,Freight,357,1154,Government,Delayed,Operational,2025-03-31
+88,Mumbai,Ahmedabad,2025-03-29,2674,Freight,35,172,Business,Delayed,Customs,2025-04-02
+89,Chennai,Ahmedabad,2025-03-30,2100,Air,87,1678,Business,Delayed,Weather,2025-04-01
+90,Delhi,Hyderabad,2025-03-31,1215,Freight,134,936,Retail,In Transit,Customs,2025-04-01
+91,Chennai,Ahmedabad,2025-04-01,425,Air,196,888,Retail,Delivered,Operational,2025-04-14
+92,Chennai,Kolkata,2025-04-02,2083,Ground,274,1145,Retail,In Transit,None,2025-04-16
+93,Delhi,Ahmedabad,2025-04-03,2421,Ground,201,772,Retail,In Transit,Operational,2025-04-11
+94,Delhi,Kolkata,2025-04-04,195,Ground,369,1876,Business,Delivered,Customs,2025-04-05
+95,Delhi,Hyderabad,2025-04-05,2031,Ground,285,1234,Government,Delivered,None,2025-04-19
+96,Delhi,Hyderabad,2025-04-06,342,Freight,77,1772,Government,Delivered,Customs,2025-04-19
+97,Delhi,Hyderabad,2025-04-07,481,Air,59,582,Government,Delayed,Customs,2025-04-18
+98,Chennai,Hyderabad,2025-04-08,754,Air,431,1847,Government,In Transit,Weather,2025-04-09
+99,Delhi,Hyderabad,2025-04-09,2048,Air,126,1124,Retail,Delivered,None,2025-04-13
+100,Mumbai,Kolkata,2025-04-10,2682,Ground,401,508,Retail,In Transit,Operational,2025-04-20
+101,Bangalore,Kolkata,2025-04-11,448,Ground,109,914,Retail,Delayed,Customs,2025-04-23
+102,Delhi,Hyderabad,2025-04-12,2914,Air,224,1131,Government,Delayed,Operational,2025-04-22
+103,Delhi,Ahmedabad,2025-04-13,1013,Ground,496,1237,Retail,Delivered,Weather,2025-04-19
+104,Chennai,Pune,2025-04-14,2284,Air,278,123,Retail,Delivered,Weather,2025-04-23
+105,Delhi,Hyderabad,2025-04-15,2091,Air,68,1826,Business,In Transit,None,2025-04-16
+106,Delhi,Ahmedabad,2025-04-16,1878,Air,69,1139,Business,Delivered,Weather,2025-04-23
+107,Delhi,Pune,2025-04-17,2158,Air,165,1466,Retail,In Transit,Weather,2025-04-27
+108,Chennai,Hyderabad,2025-04-18,988,Air,489,1934,Business,Delivered,Operational,2025-04-29
+109,Delhi,Hyderabad,2025-04-19,759,Air,305,1241,Business,In Transit,Weather,2025-04-24
+110,Bangalore,Kolkata,2025-04-20,856,Air,397,1044,Retail,In Transit,Weather,2025-05-02
+111,Chennai,Pune,2025-04-21,1513,Ground,162,1026,Retail,In Transit,Customs,2025-04-29
+112,Bangalore,Pune,2025-04-22,1375,Air,365,426,Retail,In Transit,Weather,2025-05-06
+113,Chennai,Ahmedabad,2025-04-23,60,Air,342,1421,Retail,Delayed,Customs,2025-04-30
+114,Delhi,Kolkata,2025-04-24,1135,Ground,309,186,Government,In Transit,Weather,2025-04-28
+115,Bangalore,Kolkata,2025-04-25,1918,Ground,379,528,Government,Delivered,Weather,2025-04-29
+116,Chennai,Kolkata,2025-04-26,2323,Ground,343,1681,Retail,Delayed,None,2025-05-02
+117,Mumbai,Kolkata,2025-04-27,2661,Air,435,332,Business,Delayed,None,2025-05-03
+118,Delhi,Pune,2025-04-28,821,Freight,387,1636,Retail,In Transit,Customs,2025-05-07
+119,Chennai,Pune,2025-04-29,1644,Freight,42,1461,Retail,Delayed,Weather,2025-05-11
+120,Mumbai,Hyderabad,2025-04-30,1657,Ground,354,782,Business,In Transit,Operational,2025-05-05
+121,Chennai,Hyderabad,2025-05-01,1383,Freight,416,700,Government,Delivered,None,2025-05-09
+122,Mumbai,Kolkata,2025-05-02,934,Ground,109,496,Retail,In Transit,Operational,2025-05-07
+123,Delhi,Kolkata,2025-05-03,1439,Air,51,92,Retail,Delayed,None,2025-05-05
+124,Bangalore,Kolkata,2025-05-04,275,Freight,250,1184,Government,Delivered,None,2025-05-10
+125,Mumbai,Hyderabad,2025-05-05,874,Air,497,601,Government,In Transit,Weather,2025-05-14
+126,Chennai,Ahmedabad,2025-05-06,2315,Freight,341,281,Business,Delivered,None,2025-05-19
+127,Delhi,Ahmedabad,2025-05-07,986,Air,430,1383,Government,Delivered,Operational,2025-05-10
+128,Mumbai,Hyderabad,2025-05-08,2850,Freight,383,1351,Government,Delayed,None,2025-05-09
+129,Chennai,Hyderabad,2025-05-09,2603,Air,492,264,Government,Delivered,Customs,2025-05-10
+130,Chennai,Hyderabad,2025-05-10,2356,Air,21,1558,Business,Delayed,Weather,2025-05-23
+131,Chennai,Hyderabad,2025-05-11,1961,Freight,300,1380,Government,Delivered,Weather,2025-05-14
+132,Mumbai,Hyderabad,2025-05-12,1846,Air,139,1618,Government,In Transit,Customs,2025-05-22
+133,Mumbai,Hyderabad,2025-05-13,103,Air,359,580,Business,Delivered,Customs,2025-05-18
+134,Mumbai,Kolkata,2025-05-14,776,Air,324,1119,Government,In Transit,Customs,2025-05-17
+135,Bangalore,Kolkata,2025-05-15,2786,Freight,499,1923,Government,In Transit,None,2025-05-24
+136,Mumbai,Kolkata,2025-05-16,1594,Freight,385,194,Business,Delivered,Weather,2025-05-24
+137,Mumbai,Kolkata,2025-05-17,1093,Air,92,128,Retail,In Transit,Customs,2025-05-20
+138,Mumbai,Hyderabad,2025-05-18,1963,Air,447,202,Business,Delivered,None,2025-05-27
+139,Bangalore,Ahmedabad,2025-05-19,1826,Freight,280,211,Government,Delivered,Customs,2025-06-01
+140,Mumbai,Pune,2025-05-20,1646,Freight,125,84,Government,In Transit,Operational,2025-05-26
+141,Chennai,Hyderabad,2025-05-21,1964,Air,483,1892,Government,In Transit,Operational,2025-06-03
+142,Mumbai,Pune,2025-05-22,2516,Air,397,982,Business,Delayed,Weather,2025-05-29
+143,Chennai,Ahmedabad,2025-05-23,2787,Air,111,1517,Government,In Transit,None,2025-05-27
+144,Chennai,Kolkata,2025-05-24,899,Ground,354,1826,Government,Delayed,Operational,2025-05-28
+145,Chennai,Ahmedabad,2025-05-25,2159,Freight,139,1143,Business,In Transit,Operational,2025-06-06
+146,Bangalore,Hyderabad,2025-05-26,2313,Ground,484,1587,Retail,Delivered,None,2025-06-08
+147,Bangalore,Kolkata,2025-05-27,52,Freight,435,883,Retail,In Transit,Customs,2025-05-29
+148,Bangalore,Hyderabad,2025-05-28,209,Freight,273,1171,Government,Delivered,None,2025-06-02
+149,Mumbai,Kolkata,2025-05-29,830,Freight,99,1495,Business,Delivered,Customs,2025-06-06
+150,Chennai,Pune,2025-05-30,942,Freight,252,1957,Government,Delivered,Operational,2025-06-06
+151,Bangalore,Pune,2025-05-31,2080,Freight,338,388,Business,Delayed,Operational,2025-06-07
+152,Bangalore,Pune,2025-06-01,2426,Freight,104,870,Business,In Transit,Operational,2025-06-07
+153,Mumbai,Ahmedabad,2025-06-02,629,Freight,214,62,Retail,Delivered,Weather,2025-06-05
+154,Bangalore,Hyderabad,2025-06-03,1983,Ground,249,1927,Retail,Delivered,Weather,2025-06-08
+155,Mumbai,Ahmedabad,2025-06-04,1430,Air,152,1462,Business,Delayed,Weather,2025-06-17
+156,Delhi,Pune,2025-06-05,1340,Air,250,507,Government,In Transit,None,2025-06-06
+157,Bangalore,Hyderabad,2025-06-06,1690,Ground,275,97,Retail,In Transit,Operational,2025-06-13
+158,Delhi,Pune,2025-06-07,1001,Ground,165,845,Government,Delayed,Operational,2025-06-16
+159,Mumbai,Ahmedabad,2025-06-08,2732,Ground,487,1844,Retail,Delayed,None,2025-06-09
+160,Chennai,Ahmedabad,2025-06-09,1037,Ground,341,1313,Retail,In Transit,Weather,2025-06-22
+161,Bangalore,Ahmedabad,2025-06-10,1268,Freight,8,693,Government,Delayed,None,2025-06-12
+162,Mumbai,Pune,2025-06-11,970,Air,284,720,Retail,In Transit,Weather,2025-06-14
+163,Chennai,Hyderabad,2025-06-12,2835,Freight,5,778,Retail,In Transit,Operational,2025-06-15
+164,Chennai,Hyderabad,2025-06-13,1405,Air,145,1943,Government,Delivered,Customs,2025-06-21
+165,Delhi,Pune,2025-06-14,219,Air,101,747,Retail,Delivered,Weather,2025-06-21
+166,Mumbai,Hyderabad,2025-06-15,570,Ground,164,1358,Retail,In Transit,Operational,2025-06-21
+167,Chennai,Pune,2025-06-16,1536,Freight,374,944,Retail,In Transit,Operational,2025-06-26
+168,Bangalore,Hyderabad,2025-06-17,89,Ground,147,1894,Government,In Transit,Customs,2025-06-27
+169,Bangalore,Kolkata,2025-06-18,1610,Freight,64,921,Business,In Transit,Operational,2025-06-29
+170,Delhi,Kolkata,2025-06-19,1468,Air,91,908,Government,In Transit,Operational,2025-06-23
+171,Chennai,Ahmedabad,2025-06-20,1004,Ground,117,1012,Business,In Transit,Weather,2025-06-29
+172,Mumbai,Kolkata,2025-06-21,1033,Ground,354,1988,Retail,Delayed,Weather,2025-06-22
+173,Bangalore,Kolkata,2025-06-22,1024,Air,267,1211,Business,In Transit,Customs,2025-07-03
+174,Chennai,Kolkata,2025-06-23,87,Air,310,358,Government,Delayed,Customs,2025-06-25
+175,Chennai,Pune,2025-06-24,2425,Air,173,212,Government,Delayed,Operational,2025-07-08
+176,Delhi,Kolkata,2025-06-25,1324,Ground,47,1496,Retail,In Transit,Weather,2025-06-29
+177,Bangalore,Kolkata,2025-06-26,1249,Freight,140,302,Business,In Transit,Customs,2025-06-29
+178,Bangalore,Ahmedabad,2025-06-27,1675,Ground,246,1379,Retail,Delayed,Customs,2025-06-28
+179,Mumbai,Kolkata,2025-06-28,963,Freight,149,409,Retail,Delayed,None,2025-07-03
+180,Bangalore,Kolkata,2025-06-29,503,Ground,246,1019,Government,In Transit,Customs,2025-07-06
+181,Mumbai,Hyderabad,2025-06-30,86,Ground,395,544,Business,In Transit,Operational,2025-07-02
+182,Bangalore,Ahmedabad,2025-07-01,1761,Air,487,1283,Business,Delayed,Weather,2025-07-06
+183,Delhi,Ahmedabad,2025-07-02,845,Freight,476,1875,Business,Delayed,Customs,2025-07-08
+184,Bangalore,Ahmedabad,2025-07-03,1022,Ground,5,1526,Business,Delayed,None,2025-07-14
+185,Mumbai,Ahmedabad,2025-07-04,642,Ground,465,678,Retail,Delivered,Weather,2025-07-11
+186,Mumbai,Ahmedabad,2025-07-05,1187,Air,184,735,Retail,Delayed,Customs,2025-07-06
+187,Delhi,Ahmedabad,2025-07-06,1374,Air,20,1635,Government,Delivered,None,2025-07-13
+188,Bangalore,Pune,2025-07-07,2321,Freight,425,910,Retail,In Transit,Customs,2025-07-11
+189,Bangalore,Kolkata,2025-07-08,367,Ground,46,1598,Retail,In Transit,Weather,2025-07-16
+190,Delhi,Ahmedabad,2025-07-09,2446,Freight,12,1501,Government,Delayed,Weather,2025-07-22
+191,Bangalore,Kolkata,2025-07-10,2212,Ground,70,1132,Government,In Transit,Weather,2025-07-14
+192,Bangalore,Kolkata,2025-07-11,2795,Freight,17,1703,Government,In Transit,Operational,2025-07-17
+193,Mumbai,Pune,2025-07-12,1396,Air,371,1138,Retail,In Transit,Customs,2025-07-21
+194,Bangalore,Ahmedabad,2025-07-13,1641,Ground,147,471,Retail,In Transit,Operational,2025-07-18
+195,Bangalore,Hyderabad,2025-07-14,1939,Freight,154,447,Government,Delivered,Weather,2025-07-28
+196,Delhi,Pune,2025-07-15,2137,Air,304,1194,Government,Delivered,None,2025-07-27
+197,Delhi,Hyderabad,2025-07-16,2046,Air,108,1557,Government,Delayed,Customs,2025-07-20
+198,Chennai,Kolkata,2025-07-17,1822,Freight,236,1419,Retail,Delayed,Operational,2025-07-25
+199,Mumbai,Kolkata,2025-07-18,1362,Ground,308,1065,Retail,Delayed,Customs,2025-07-31
+200,Bangalore,Pune,2025-07-19,1335,Ground,352,902,Business,In Transit,None,2025-07-28
+201,Bangalore,Pune,2025-07-20,265,Air,70,332,Retail,In Transit,Operational,2025-07-24
+202,Chennai,Hyderabad,2025-07-21,2433,Ground,183,859,Retail,Delivered,Weather,2025-07-24
+203,Bangalore,Ahmedabad,2025-07-22,2189,Ground,250,538,Retail,Delivered,Operational,2025-07-30
+204,Mumbai,Hyderabad,2025-07-23,2450,Ground,228,1249,Government,Delayed,Customs,2025-08-06
+205,Chennai,Pune,2025-07-24,2668,Air,102,1995,Retail,Delivered,Customs,2025-07-29
+206,Mumbai,Hyderabad,2025-07-25,2913,Freight,75,394,Government,Delivered,Customs,2025-07-27
+207,Chennai,Pune,2025-07-26,1754,Ground,417,470,Business,Delivered,Customs,2025-08-05
+208,Chennai,Hyderabad,2025-07-27,2878,Air,446,1669,Business,Delivered,Weather,2025-08-05
+209,Delhi,Pune,2025-07-28,412,Air,216,1827,Government,Delivered,Operational,2025-07-31
+210,Mumbai,Pune,2025-07-29,2654,Freight,407,1034,Government,Delayed,Weather,2025-08-10
+211,Bangalore,Pune,2025-07-30,1766,Ground,399,614,Government,Delayed,Weather,2025-08-01
+212,Bangalore,Ahmedabad,2025-07-31,1243,Ground,411,1222,Retail,Delivered,Weather,2025-08-01
+213,Mumbai,Hyderabad,2025-08-01,405,Freight,203,1253,Business,Delayed,Customs,2025-08-15
+214,Bangalore,Hyderabad,2025-08-02,240,Freight,192,519,Government,In Transit,Customs,2025-08-10
+215,Bangalore,Hyderabad,2025-08-03,2519,Air,249,483,Retail,Delivered,Customs,2025-08-14
+216,Mumbai,Pune,2025-08-04,749,Air,499,1883,Business,In Transit,Operational,2025-08-07
+217,Chennai,Hyderabad,2025-08-05,2104,Freight,242,1167,Retail,Delayed,None,2025-08-12
+218,Mumbai,Hyderabad,2025-08-06,2230,Ground,465,132,Business,Delayed,Customs,2025-08-07
+219,Chennai,Pune,2025-08-07,606,Air,179,1055,Retail,In Transit,Operational,2025-08-08
+220,Bangalore,Kolkata,2025-08-08,875,Air,437,1169,Business,Delayed,Customs,2025-08-20
+221,Bangalore,Pune,2025-08-09,2858,Ground,462,1608,Business,Delivered,Customs,2025-08-18
+222,Bangalore,Hyderabad,2025-08-10,1104,Air,219,350,Retail,In Transit,Weather,2025-08-22
+223,Delhi,Pune,2025-08-11,2632,Ground,82,1944,Government,Delivered,Weather,2025-08-19
+224,Chennai,Kolkata,2025-08-12,475,Ground,92,1326,Business,In Transit,Weather,2025-08-24
+225,Delhi,Pune,2025-08-13,2769,Ground,435,159,Government,Delayed,Operational,2025-08-26
+226,Delhi,Hyderabad,2025-08-14,2460,Freight,175,1444,Retail,In Transit,None,2025-08-17
+227,Mumbai,Kolkata,2025-08-15,1624,Freight,239,921,Government,In Transit,None,2025-08-21
+228,Delhi,Ahmedabad,2025-08-16,2179,Freight,260,1140,Government,Delivered,Operational,2025-08-27
+229,Mumbai,Hyderabad,2025-08-17,2453,Ground,391,536,Government,Delayed,Customs,2025-08-20
+230,Mumbai,Kolkata,2025-08-18,638,Ground,365,588,Government,Delivered,Operational,2025-08-31
+231,Delhi,Kolkata,2025-08-19,2062,Freight,163,1967,Government,Delayed,Customs,2025-08-31
+232,Chennai,Ahmedabad,2025-08-20,1597,Air,48,865,Business,Delivered,Operational,2025-08-24
+233,Chennai,Pune,2025-08-21,344,Ground,329,1112,Business,In Transit,Operational,2025-08-22
+234,Chennai,Pune,2025-08-22,2035,Air,328,137,Business,Delivered,Operational,2025-08-27
+235,Chennai,Hyderabad,2025-08-23,1297,Air,116,907,Retail,Delayed,None,2025-08-24
+236,Chennai,Ahmedabad,2025-08-24,1598,Ground,429,1102,Government,Delayed,Weather,2025-09-06
+237,Delhi,Pune,2025-08-25,1740,Ground,337,1076,Business,In Transit,Operational,2025-08-26
+238,Delhi,Ahmedabad,2025-08-26,1186,Air,337,1361,Retail,Delayed,None,2025-09-05
+239,Bangalore,Pune,2025-08-27,1306,Air,369,69,Business,Delivered,Weather,2025-09-07
+240,Chennai,Kolkata,2025-08-28,2114,Freight,225,1923,Business,In Transit,Weather,2025-09-08
+241,Delhi,Pune,2025-08-29,409,Freight,352,1532,Government,Delayed,Operational,2025-09-12
+242,Bangalore,Ahmedabad,2025-08-30,2963,Ground,328,38,Retail,Delayed,Customs,2025-09-06
+243,Chennai,Kolkata,2025-08-31,749,Freight,147,745,Government,Delivered,Customs,2025-09-12
+244,Mumbai,Kolkata,2025-09-01,497,Freight,63,216,Government,Delivered,Customs,2025-09-07
+245,Bangalore,Kolkata,2025-09-02,2953,Freight,294,1934,Business,In Transit,Operational,2025-09-04
+246,Delhi,Ahmedabad,2025-09-03,2462,Freight,323,1493,Government,Delayed,Customs,2025-09-17
+247,Mumbai,Hyderabad,2025-09-04,724,Air,443,578,Retail,Delivered,None,2025-09-15
+248,Mumbai,Hyderabad,2025-09-05,1057,Ground,325,1722,Government,In Transit,None,2025-09-17
+249,Mumbai,Hyderabad,2025-09-06,1399,Freight,13,471,Government,Delayed,None,2025-09-08
+250,Bangalore,Ahmedabad,2025-09-07,2564,Air,431,308,Government,Delayed,None,2025-09-18
+251,Delhi,Kolkata,2025-09-08,2511,Air,494,1184,Business,In Transit,Weather,2025-09-15
+252,Mumbai,Hyderabad,2025-09-09,635,Air,189,1127,Retail,In Transit,None,2025-09-10
+253,Chennai,Ahmedabad,2025-09-10,1306,Freight,287,1737,Business,Delivered,Customs,2025-09-23
+254,Mumbai,Hyderabad,2025-09-11,1297,Freight,208,410,Business,Delayed,Operational,2025-09-13
+255,Mumbai,Pune,2025-09-12,1043,Ground,114,1634,Business,Delayed,Customs,2025-09-24
+256,Bangalore,Hyderabad,2025-09-13,1485,Freight,480,234,Business,Delayed,None,2025-09-21
+257,Bangalore,Hyderabad,2025-09-14,621,Freight,22,1569,Business,In Transit,Weather,2025-09-20
+258,Delhi,Kolkata,2025-09-15,2432,Air,349,234,Retail,Delivered,None,2025-09-29
+259,Chennai,Ahmedabad,2025-09-16,1295,Ground,214,1446,Government,Delayed,Operational,2025-09-18
+260,Bangalore,Kolkata,2025-09-17,2134,Freight,171,147,Business,In Transit,Customs,2025-09-24
+261,Mumbai,Kolkata,2025-09-18,1038,Freight,323,1865,Business,Delayed,Operational,2025-09-22
+262,Delhi,Kolkata,2025-09-19,327,Air,54,1520,Retail,Delivered,Operational,2025-09-21
+263,Mumbai,Kolkata,2025-09-20,1269,Air,394,779,Retail,Delayed,Operational,2025-10-02
+264,Mumbai,Kolkata,2025-09-21,1937,Freight,298,423,Government,Delivered,Customs,2025-09-27
+265,Bangalore,Hyderabad,2025-09-22,533,Ground,320,1072,Retail,Delivered,None,2025-10-03
+266,Delhi,Kolkata,2025-09-23,1315,Ground,126,1835,Government,Delayed,Operational,2025-10-02
+267,Chennai,Kolkata,2025-09-24,780,Air,277,357,Business,Delayed,Customs,2025-10-05
+268,Chennai,Ahmedabad,2025-09-25,2289,Air,464,850,Business,Delivered,Weather,2025-10-04
+269,Bangalore,Pune,2025-09-26,1090,Freight,204,733,Government,In Transit,Customs,2025-10-10
+270,Bangalore,Hyderabad,2025-09-27,2621,Air,194,380,Retail,Delivered,Weather,2025-10-05
+271,Delhi,Hyderabad,2025-09-28,967,Freight,169,588,Government,Delayed,Customs,2025-10-01
+272,Chennai,Hyderabad,2025-09-29,2498,Ground,152,1435,Retail,Delayed,None,2025-10-02
+273,Chennai,Kolkata,2025-09-30,935,Ground,35,237,Business,In Transit,Operational,2025-10-02
+274,Chennai,Kolkata,2025-10-01,2802,Freight,184,1617,Retail,Delivered,None,2025-10-06
+275,Mumbai,Kolkata,2025-10-02,71,Air,286,1712,Government,Delivered,Customs,2025-10-16
+276,Chennai,Ahmedabad,2025-10-03,523,Ground,57,221,Government,Delivered,Operational,2025-10-15
+277,Mumbai,Pune,2025-10-04,2307,Air,222,36,Business,Delayed,Weather,2025-10-18
+278,Delhi,Kolkata,2025-10-05,2403,Ground,303,341,Retail,Delivered,Customs,2025-10-09
+279,Mumbai,Pune,2025-10-06,753,Freight,163,537,Retail,In Transit,Operational,2025-10-13
+280,Delhi,Ahmedabad,2025-10-07,736,Freight,19,1613,Retail,Delayed,Weather,2025-10-11
+281,Chennai,Hyderabad,2025-10-08,334,Freight,370,1368,Business,Delayed,Weather,2025-10-17
+282,Chennai,Kolkata,2025-10-09,765,Ground,264,1455,Retail,Delivered,None,2025-10-21
+283,Delhi,Pune,2025-10-10,812,Air,282,1361,Government,In Transit,Customs,2025-10-22
+284,Bangalore,Pune,2025-10-11,1300,Air,113,700,Retail,Delayed,Weather,2025-10-13
+285,Delhi,Kolkata,2025-10-12,997,Air,488,1125,Business,Delayed,Operational,2025-10-23
+286,Bangalore,Hyderabad,2025-10-13,2478,Ground,327,1517,Retail,Delivered,Weather,2025-10-27
+287,Mumbai,Hyderabad,2025-10-14,2557,Ground,30,1511,Retail,Delivered,Weather,2025-10-20
+288,Mumbai,Hyderabad,2025-10-15,1080,Ground,135,444,Government,In Transit,None,2025-10-22
+289,Mumbai,Ahmedabad,2025-10-16,78,Ground,67,1988,Retail,Delivered,None,2025-10-20
+290,Chennai,Pune,2025-10-17,956,Ground,65,1774,Government,In Transit,Operational,2025-10-30
+291,Mumbai,Pune,2025-10-18,2976,Air,292,1732,Government,Delayed,None,2025-10-24
+292,Bangalore,Pune,2025-10-19,2176,Ground,25,1247,Business,In Transit,Weather,2025-10-26
+293,Mumbai,Ahmedabad,2025-10-20,2556,Ground,37,1626,Government,In Transit,Weather,2025-10-24
+294,Delhi,Pune,2025-10-21,619,Air,1,1038,Government,In Transit,None,2025-10-29
+295,Delhi,Ahmedabad,2025-10-22,2056,Ground,399,406,Business,Delayed,Weather,2025-10-31
+296,Chennai,Hyderabad,2025-10-23,1503,Air,37,797,Government,Delivered,Weather,2025-10-24
+297,Delhi,Kolkata,2025-10-24,787,Air,141,117,Business,Delayed,Operational,2025-10-31
+298,Bangalore,Pune,2025-10-25,565,Freight,232,1388,Retail,Delivered,None,2025-11-03
+299,Mumbai,Pune,2025-10-26,2050,Freight,136,1846,Business,In Transit,Weather,2025-11-07
+300,Chennai,Hyderabad,2025-10-27,2494,Freight,389,227,Government,In Transit,None,2025-11-06
+301,Mumbai,Kolkata,2025-10-28,88,Freight,188,1557,Business,In Transit,Operational,2025-11-02
+302,Mumbai,Ahmedabad,2025-10-29,936,Ground,128,1679,Government,In Transit,None,2025-11-10
+303,Bangalore,Kolkata,2025-10-30,2894,Freight,201,1835,Retail,In Transit,Weather,2025-11-01
+304,Delhi,Hyderabad,2025-10-31,2254,Air,127,605,Business,Delivered,None,2025-11-10
+305,Delhi,Hyderabad,2025-11-01,1148,Ground,257,185,Retail,Delivered,Weather,2025-11-07
+306,Mumbai,Kolkata,2025-11-02,2981,Freight,164,41,Government,In Transit,Weather,2025-11-14
+307,Chennai,Ahmedabad,2025-11-03,1873,Air,35,173,Government,Delayed,Weather,2025-11-15
+308,Delhi,Ahmedabad,2025-11-04,1760,Ground,194,1982,Retail,Delayed,Operational,2025-11-11
+309,Chennai,Pune,2025-11-05,1023,Ground,191,1482,Business,In Transit,None,2025-11-07
+310,Delhi,Ahmedabad,2025-11-06,1612,Freight,104,1338,Business,Delivered,Operational,2025-11-08
+311,Chennai,Kolkata,2025-11-07,2946,Ground,23,238,Government,Delayed,None,2025-11-17
+312,Bangalore,Hyderabad,2025-11-08,2845,Air,265,688,Retail,Delayed,Operational,2025-11-22
+313,Chennai,Pune,2025-11-09,1038,Ground,290,1538,Retail,Delayed,Customs,2025-11-21
+314,Bangalore,Pune,2025-11-10,70,Air,430,249,Business,In Transit,Weather,2025-11-20
+315,Bangalore,Hyderabad,2025-11-11,2400,Ground,462,39,Business,Delayed,Weather,2025-11-12
+316,Chennai,Ahmedabad,2025-11-12,918,Freight,384,572,Business,Delayed,Operational,2025-11-16
+317,Bangalore,Hyderabad,2025-11-13,133,Air,260,969,Retail,Delayed,Customs,2025-11-20
+318,Mumbai,Ahmedabad,2025-11-14,1732,Ground,414,167,Business,Delayed,Weather,2025-11-28
+319,Bangalore,Hyderabad,2025-11-15,2026,Ground,479,1151,Business,Delivered,None,2025-11-24
+320,Delhi,Kolkata,2025-11-16,1460,Ground,358,422,Government,In Transit,Operational,2025-11-19
+321,Chennai,Ahmedabad,2025-11-17,1580,Air,75,615,Business,In Transit,Weather,2025-11-29
+322,Mumbai,Kolkata,2025-11-18,619,Air,355,1526,Business,Delivered,Weather,2025-11-29
+323,Chennai,Pune,2025-11-19,983,Air,72,386,Retail,Delivered,Operational,2025-11-26
+324,Delhi,Hyderabad,2025-11-20,2030,Freight,259,1877,Retail,In Transit,Operational,2025-11-27
+325,Delhi,Pune,2025-11-21,1905,Freight,398,1457,Government,Delayed,None,2025-11-28
+326,Delhi,Pune,2025-11-22,842,Air,188,1352,Business,Delayed,None,2025-11-24
+327,Bangalore,Pune,2025-11-23,841,Ground,461,821,Government,In Transit,Weather,2025-11-29
+328,Bangalore,Pune,2025-11-24,1859,Freight,173,937,Retail,Delayed,Weather,2025-11-26
+329,Chennai,Hyderabad,2025-11-25,1344,Air,480,1878,Government,Delivered,Operational,2025-12-01
+330,Chennai,Pune,2025-11-26,2589,Ground,290,1177,Retail,Delayed,Weather,2025-12-09
+331,Mumbai,Hyderabad,2025-11-27,2305,Freight,45,1762,Government,Delayed,Weather,2025-12-07
+332,Mumbai,Hyderabad,2025-11-28,1657,Ground,61,1326,Government,Delayed,Operational,2025-12-01
+333,Chennai,Kolkata,2025-11-29,1133,Ground,83,1821,Business,In Transit,Weather,2025-12-13
+334,Bangalore,Ahmedabad,2025-11-30,2527,Ground,123,92,Government,Delivered,Weather,2025-12-02
+335,Delhi,Ahmedabad,2025-12-01,1034,Ground,358,500,Business,Delayed,Customs,2025-12-13
+336,Chennai,Hyderabad,2025-12-02,1730,Freight,16,1395,Business,In Transit,None,2025-12-16
+337,Mumbai,Kolkata,2025-12-03,569,Freight,66,579,Business,Delayed,Operational,2025-12-09
+338,Bangalore,Hyderabad,2025-12-04,640,Freight,424,1369,Business,Delivered,Customs,2025-12-06
+339,Chennai,Hyderabad,2025-12-05,1100,Air,145,764,Government,Delayed,None,2025-12-10
+340,Chennai,Hyderabad,2025-12-06,1759,Freight,375,1486,Retail,Delivered,None,2025-12-08
+341,Bangalore,Kolkata,2025-12-07,2085,Ground,162,119,Retail,Delayed,None,2025-12-10
+342,Chennai,Ahmedabad,2025-12-08,2296,Freight,234,1102,Retail,Delivered,Customs,2025-12-11
+343,Bangalore,Kolkata,2025-12-09,2484,Ground,380,527,Government,Delayed,Customs,2025-12-15
+344,Delhi,Pune,2025-12-10,398,Air,144,277,Business,Delivered,None,2025-12-16
+345,Bangalore,Kolkata,2025-12-11,1009,Ground,358,432,Retail,Delayed,Weather,2025-12-21
+346,Bangalore,Kolkata,2025-12-12,2013,Ground,188,1495,Government,Delayed,Weather,2025-12-15
+347,Bangalore,Kolkata,2025-12-13,742,Ground,322,1108,Business,In Transit,Customs,2025-12-16
+348,Chennai,Kolkata,2025-12-14,1609,Air,450,614,Retail,In Transit,Customs,2025-12-27
+349,Chennai,Ahmedabad,2025-12-15,427,Freight,474,1197,Business,Delivered,Customs,2025-12-27
+350,Bangalore,Pune,2025-12-16,2996,Freight,13,285,Retail,Delayed,None,2025-12-29
+351,Chennai,Ahmedabad,2025-12-17,576,Air,184,840,Retail,Delivered,Weather,2025-12-18
+352,Mumbai,Ahmedabad,2025-12-18,2831,Ground,111,1122,Retail,In Transit,Customs,2025-12-25
+353,Mumbai,Kolkata,2025-12-19,2303,Freight,415,1358,Business,Delivered,Customs,2026-01-01
+354,Chennai,Hyderabad,2025-12-20,2552,Air,290,681,Government,Delivered,Operational,2025-12-28
+355,Chennai,Hyderabad,2025-12-21,1309,Freight,295,966,Business,In Transit,None,2025-12-23
+356,Bangalore,Ahmedabad,2025-12-22,1925,Air,451,579,Retail,Delayed,Operational,2025-12-26
+357,Delhi,Ahmedabad,2025-12-23,1813,Ground,392,936,Business,Delivered,Weather,2026-01-02
+358,Chennai,Kolkata,2025-12-24,570,Freight,215,910,Government,In Transit,Operational,2025-12-31
+359,Mumbai,Ahmedabad,2025-12-25,1751,Air,462,1291,Business,Delayed,Operational,2026-01-02
+360,Bangalore,Kolkata,2025-12-26,1066,Freight,120,1833,Government,In Transit,Operational,2025-12-27
+361,Chennai,Hyderabad,2025-12-27,2823,Freight,382,887,Government,Delivered,None,2025-12-31
+362,Mumbai,Hyderabad,2025-12-28,1063,Freight,55,629,Business,Delayed,Weather,2026-01-03
+363,Mumbai,Pune,2025-12-29,2598,Freight,27,433,Retail,Delayed,Operational,2026-01-01
+364,Delhi,Hyderabad,2025-12-30,166,Air,118,44,Government,In Transit,None,2026-01-04
+365,Bangalore,Ahmedabad,2025-12-31,2483,Ground,221,303,Business,In Transit,Weather,2026-01-10
+366,Bangalore,Hyderabad,2026-01-01,1417,Air,231,1492,Government,In Transit,Customs,2026-01-10
+367,Delhi,Kolkata,2026-01-02,633,Air,53,900,Retail,Delayed,Operational,2026-01-13
+368,Delhi,Hyderabad,2026-01-03,444,Air,295,320,Business,Delayed,Weather,2026-01-16
+369,Bangalore,Pune,2026-01-04,1137,Ground,321,1111,Business,Delivered,Operational,2026-01-07
+370,Bangalore,Hyderabad,2026-01-05,2818,Freight,401,1050,Business,Delayed,Customs,2026-01-10
+371,Chennai,Kolkata,2026-01-06,121,Freight,233,836,Retail,Delivered,Weather,2026-01-14
+372,Chennai,Kolkata,2026-01-07,323,Freight,158,1180,Government,In Transit,None,2026-01-13
+373,Delhi,Ahmedabad,2026-01-08,2063,Ground,437,1207,Business,In Transit,Weather,2026-01-12
+374,Chennai,Hyderabad,2026-01-09,1393,Freight,269,102,Government,Delayed,None,2026-01-17
+375,Mumbai,Kolkata,2026-01-10,387,Ground,21,1940,Government,In Transit,Weather,2026-01-21
+376,Chennai,Pune,2026-01-11,1439,Freight,403,1693,Retail,In Transit,None,2026-01-14
+377,Chennai,Ahmedabad,2026-01-12,656,Freight,53,1463,Business,Delayed,Customs,2026-01-15
+378,Mumbai,Pune,2026-01-13,215,Air,275,1116,Government,Delivered,Customs,2026-01-17
+379,Delhi,Hyderabad,2026-01-14,1617,Ground,313,1280,Business,Delayed,Customs,2026-01-23
+380,Mumbai,Hyderabad,2026-01-15,2108,Air,281,65,Business,Delivered,Weather,2026-01-20
+381,Chennai,Hyderabad,2026-01-16,1374,Air,214,637,Retail,Delayed,Customs,2026-01-24
+382,Delhi,Ahmedabad,2026-01-17,778,Air,31,947,Business,Delayed,Operational,2026-01-23
+383,Chennai,Kolkata,2026-01-18,2898,Ground,337,1843,Business,In Transit,Customs,2026-01-21
+384,Mumbai,Ahmedabad,2026-01-19,2093,Ground,183,281,Government,Delayed,None,2026-01-27
+385,Mumbai,Pune,2026-01-20,151,Freight,23,195,Retail,Delayed,None,2026-02-01
+386,Chennai,Ahmedabad,2026-01-21,1465,Air,32,1209,Business,Delivered,None,2026-01-30
+387,Bangalore,Pune,2026-01-22,828,Freight,446,676,Government,In Transit,Weather,2026-01-30
+388,Bangalore,Ahmedabad,2026-01-23,263,Air,74,861,Retail,Delivered,Operational,2026-02-05
+389,Mumbai,Kolkata,2026-01-24,1161,Ground,10,389,Retail,Delivered,Customs,2026-01-28
+390,Mumbai,Pune,2026-01-25,1626,Ground,484,1838,Government,In Transit,Operational,2026-02-08
+391,Bangalore,Hyderabad,2026-01-26,2498,Ground,456,73,Government,In Transit,Operational,2026-02-09
+392,Bangalore,Hyderabad,2026-01-27,2685,Air,54,709,Government,In Transit,None,2026-02-09
+393,Chennai,Ahmedabad,2026-01-28,2986,Ground,52,1462,Government,Delayed,None,2026-02-08
+394,Chennai,Hyderabad,2026-01-29,1745,Air,148,1799,Government,In Transit,None,2026-02-04
+395,Bangalore,Pune,2026-01-30,641,Freight,160,1550,Business,In Transit,Weather,2026-01-31
+396,Chennai,Hyderabad,2026-01-31,1383,Air,370,1384,Business,In Transit,Operational,2026-02-04
+397,Chennai,Kolkata,2026-02-01,1159,Freight,14,1170,Retail,Delivered,Operational,2026-02-09
+398,Delhi,Kolkata,2026-02-02,2189,Air,178,1452,Business,Delivered,Weather,2026-02-03
+399,Chennai,Ahmedabad,2026-02-03,2770,Freight,412,1967,Business,Delayed,Weather,2026-02-06
+400,Mumbai,Pune,2026-02-04,763,Ground,366,386,Business,Delivered,Weather,2026-02-05
+401,Chennai,Kolkata,2026-02-05,985,Freight,53,1314,Government,Delayed,Operational,2026-02-14
+402,Chennai,Kolkata,2026-02-06,2001,Ground,408,663,Retail,Delivered,Operational,2026-02-08
+403,Bangalore,Pune,2026-02-07,291,Ground,335,1648,Retail,In Transit,None,2026-02-16
+404,Mumbai,Hyderabad,2026-02-08,2093,Freight,22,398,Retail,Delivered,None,2026-02-21
+405,Chennai,Hyderabad,2026-02-09,51,Air,30,92,Retail,Delayed,Operational,2026-02-13
+406,Chennai,Ahmedabad,2026-02-10,2322,Air,191,1966,Business,Delivered,None,2026-02-12
+407,Delhi,Hyderabad,2026-02-11,2898,Air,260,1965,Business,In Transit,Weather,2026-02-15
+408,Chennai,Pune,2026-02-12,1818,Air,205,934,Government,Delayed,Customs,2026-02-24
+409,Chennai,Kolkata,2026-02-13,1999,Air,59,1291,Retail,In Transit,None,2026-02-24
+410,Delhi,Hyderabad,2026-02-14,2686,Ground,471,879,Business,In Transit,Operational,2026-02-25
+411,Bangalore,Ahmedabad,2026-02-15,2213,Air,264,1828,Business,Delayed,None,2026-02-25
+412,Chennai,Hyderabad,2026-02-16,967,Ground,466,62,Government,In Transit,None,2026-02-22
+413,Delhi,Pune,2026-02-17,2291,Ground,12,396,Government,In Transit,None,2026-02-28
+414,Mumbai,Ahmedabad,2026-02-18,2968,Ground,119,1084,Government,Delivered,Customs,2026-02-25
+415,Bangalore,Hyderabad,2026-02-19,139,Freight,415,189,Business,In Transit,Weather,2026-02-22
+416,Mumbai,Ahmedabad,2026-02-20,1759,Freight,462,1989,Business,In Transit,Operational,2026-02-23
+417,Mumbai,Pune,2026-02-21,2219,Ground,290,231,Government,In Transit,Customs,2026-03-05
+418,Delhi,Kolkata,2026-02-22,192,Freight,338,1536,Retail,In Transit,Operational,2026-03-04
+419,Chennai,Pune,2026-02-23,155,Air,248,1723,Government,Delayed,Operational,2026-03-07
+420,Delhi,Pune,2026-02-24,936,Air,354,58,Government,Delivered,Operational,2026-03-04
+421,Delhi,Pune,2026-02-25,477,Ground,127,388,Government,In Transit,Customs,2026-03-02
+422,Delhi,Pune,2026-02-26,1378,Air,75,776,Government,In Transit,Weather,2026-03-02
+423,Delhi,Kolkata,2026-02-27,1945,Ground,361,170,Business,Delayed,Operational,2026-03-06
+424,Bangalore,Kolkata,2026-02-28,2044,Ground,204,1154,Retail,In Transit,Weather,2026-03-07
+425,Chennai,Ahmedabad,2026-03-01,366,Air,49,1523,Government,Delayed,Weather,2026-03-14
+426,Mumbai,Hyderabad,2026-03-02,2036,Freight,79,1479,Retail,Delivered,None,2026-03-11
+427,Mumbai,Kolkata,2026-03-03,684,Air,441,1090,Retail,Delivered,Customs,2026-03-12
+428,Chennai,Kolkata,2026-03-04,1975,Air,479,1043,Retail,In Transit,Customs,2026-03-09
+429,Mumbai,Hyderabad,2026-03-05,2106,Ground,241,1618,Government,In Transit,None,2026-03-18
+430,Chennai,Kolkata,2026-03-06,2871,Ground,349,756,Business,In Transit,None,2026-03-18
+431,Mumbai,Pune,2026-03-07,2320,Ground,154,1409,Government,Delayed,Weather,2026-03-20
+432,Delhi,Pune,2026-03-08,1489,Ground,274,88,Retail,In Transit,Operational,2026-03-16
+433,Mumbai,Hyderabad,2026-03-09,602,Freight,96,318,Retail,In Transit,Customs,2026-03-19
+434,Chennai,Ahmedabad,2026-03-10,765,Freight,214,963,Business,Delivered,Operational,2026-03-11
+435,Chennai,Ahmedabad,2026-03-11,1337,Freight,294,821,Government,In Transit,Operational,2026-03-20
+436,Chennai,Hyderabad,2026-03-12,1763,Ground,209,315,Retail,Delivered,None,2026-03-20
+437,Chennai,Hyderabad,2026-03-13,1933,Ground,343,222,Business,In Transit,Operational,2026-03-19
+438,Chennai,Pune,2026-03-14,1157,Ground,88,80,Retail,Delivered,Weather,2026-03-27
+439,Bangalore,Ahmedabad,2026-03-15,1391,Freight,306,965,Business,In Transit,None,2026-03-18
+440,Bangalore,Kolkata,2026-03-16,160,Ground,264,982,Business,Delivered,Operational,2026-03-19
+441,Mumbai,Pune,2026-03-17,300,Air,425,1873,Government,Delayed,None,2026-03-25
+442,Chennai,Hyderabad,2026-03-18,2480,Air,390,1357,Retail,Delivered,Weather,2026-03-23
+443,Mumbai,Ahmedabad,2026-03-19,2104,Ground,325,1204,Government,Delivered,Weather,2026-03-29
+444,Chennai,Kolkata,2026-03-20,508,Air,428,350,Retail,Delivered,Operational,2026-03-31
+445,Chennai,Kolkata,2026-03-21,1157,Air,377,1571,Government,In Transit,None,2026-04-04
+446,Bangalore,Pune,2026-03-22,257,Freight,320,357,Retail,In Transit,Operational,2026-03-29
+447,Bangalore,Ahmedabad,2026-03-23,949,Ground,157,1649,Government,In Transit,Operational,2026-03-28
+448,Delhi,Ahmedabad,2026-03-24,71,Ground,156,1347,Business,Delayed,None,2026-04-01
+449,Bangalore,Hyderabad,2026-03-25,459,Freight,139,1546,Retail,Delayed,Operational,2026-04-04
+450,Delhi,Ahmedabad,2026-03-26,944,Air,121,1693,Retail,Delivered,Weather,2026-04-05
+451,Delhi,Ahmedabad,2026-03-27,564,Air,65,1381,Business,Delayed,None,2026-03-31
+452,Delhi,Pune,2026-03-28,858,Ground,107,1593,Government,Delivered,None,2026-03-30
+453,Delhi,Ahmedabad,2026-03-29,923,Air,147,658,Retail,Delivered,None,2026-04-01
+454,Delhi,Kolkata,2026-03-30,63,Freight,137,294,Retail,Delivered,None,2026-04-07
+455,Mumbai,Pune,2026-03-31,1020,Freight,411,1207,Government,Delayed,Operational,2026-04-11
+456,Bangalore,Pune,2026-04-01,2184,Ground,162,1486,Business,In Transit,Operational,2026-04-14
+457,Delhi,Hyderabad,2026-04-02,1610,Freight,428,338,Government,Delayed,Weather,2026-04-09
+458,Chennai,Ahmedabad,2026-04-03,1374,Freight,452,608,Government,Delivered,Customs,2026-04-16
+459,Bangalore,Hyderabad,2026-04-04,1316,Ground,100,523,Government,Delivered,Customs,2026-04-06
+460,Bangalore,Kolkata,2026-04-05,2219,Freight,338,1729,Retail,Delayed,Weather,2026-04-11
+461,Delhi,Pune,2026-04-06,799,Freight,399,406,Business,Delivered,Customs,2026-04-15
+462,Mumbai,Pune,2026-04-07,734,Freight,307,889,Business,Delivered,Weather,2026-04-11
+463,Delhi,Pune,2026-04-08,1977,Air,141,852,Government,Delayed,Operational,2026-04-17
+464,Mumbai,Kolkata,2026-04-09,2406,Ground,83,1034,Retail,Delayed,None,2026-04-11
+465,Chennai,Kolkata,2026-04-10,744,Ground,177,1931,Government,Delayed,None,2026-04-12
+466,Bangalore,Hyderabad,2026-04-11,2385,Ground,198,622,Retail,Delivered,Operational,2026-04-20
+467,Chennai,Hyderabad,2026-04-12,356,Air,112,1793,Retail,Delivered,None,2026-04-24
+468,Mumbai,Hyderabad,2026-04-13,2039,Air,56,1819,Retail,In Transit,None,2026-04-20
+469,Mumbai,Ahmedabad,2026-04-14,711,Ground,460,710,Retail,In Transit,Customs,2026-04-21
+470,Chennai,Pune,2026-04-15,598,Air,179,513,Business,Delayed,Operational,2026-04-16
+471,Mumbai,Pune,2026-04-16,361,Ground,421,509,Retail,In Transit,Customs,2026-04-29
+472,Chennai,Hyderabad,2026-04-17,2970,Air,401,740,Retail,Delivered,Customs,2026-04-28
+473,Bangalore,Pune,2026-04-18,1132,Freight,186,1116,Government,In Transit,None,2026-04-24
+474,Chennai,Hyderabad,2026-04-19,1787,Freight,471,528,Government,Delivered,None,2026-05-02
+475,Bangalore,Ahmedabad,2026-04-20,804,Ground,218,409,Business,Delayed,Operational,2026-04-27
+476,Chennai,Ahmedabad,2026-04-21,84,Air,413,1662,Government,Delayed,None,2026-05-02
+477,Mumbai,Kolkata,2026-04-22,494,Air,417,1900,Retail,Delivered,None,2026-05-06
+478,Chennai,Ahmedabad,2026-04-23,2190,Freight,316,314,Government,In Transit,Operational,2026-04-29
+479,Mumbai,Hyderabad,2026-04-24,2032,Freight,475,1412,Business,Delayed,None,2026-04-30
+480,Chennai,Ahmedabad,2026-04-25,1280,Air,217,1999,Government,Delayed,Customs,2026-04-27
+481,Chennai,Kolkata,2026-04-26,402,Air,120,815,Government,In Transit,Operational,2026-05-02
+482,Delhi,Pune,2026-04-27,952,Air,439,884,Business,In Transit,None,2026-05-01
+483,Mumbai,Hyderabad,2026-04-28,1405,Air,394,1737,Business,Delivered,Weather,2026-05-07
+484,Delhi,Pune,2026-04-29,2959,Air,175,568,Retail,In Transit,Operational,2026-05-11
+485,Mumbai,Kolkata,2026-04-30,1798,Air,23,668,Government,In Transit,Operational,2026-05-01
+486,Delhi,Kolkata,2026-05-01,208,Ground,213,1893,Retail,In Transit,Weather,2026-05-14
+487,Bangalore,Kolkata,2026-05-02,2027,Air,405,587,Government,Delivered,None,2026-05-10
+488,Chennai,Pune,2026-05-03,1006,Freight,235,1230,Government,Delivered,None,2026-05-08
+489,Mumbai,Pune,2026-05-04,2121,Ground,13,872,Retail,Delayed,Operational,2026-05-05
+490,Mumbai,Pune,2026-05-05,453,Air,101,789,Government,Delivered,Operational,2026-05-09
+491,Chennai,Pune,2026-05-06,2902,Freight,417,464,Government,Delayed,None,2026-05-07
+492,Mumbai,Kolkata,2026-05-07,565,Ground,24,1613,Government,In Transit,None,2026-05-13
+493,Mumbai,Kolkata,2026-05-08,2829,Freight,364,382,Business,Delayed,Customs,2026-05-10
+494,Delhi,Hyderabad,2026-05-09,1437,Air,11,142,Retail,Delayed,Operational,2026-05-14
+495,Mumbai,Hyderabad,2026-05-10,2629,Air,273,1231,Business,In Transit,Operational,2026-05-17
+496,Bangalore,Pune,2026-05-11,1005,Air,452,761,Retail,Delayed,Weather,2026-05-13
+497,Bangalore,Ahmedabad,2026-05-12,2249,Air,431,699,Retail,Delivered,Customs,2026-05-18
+498,Chennai,Ahmedabad,2026-05-13,1762,Ground,281,439,Government,Delivered,None,2026-05-19
+499,Mumbai,Kolkata,2026-05-14,657,Ground,94,1669,Retail,Delivered,Customs,2026-05-19
+500,Chennai,Kolkata,2026-05-15,2517,Freight,201,1295,Business,Delivered,None,2026-05-20
+501,Bangalore,Kolkata,2026-05-16,1323,Air,21,1662,Business,Delayed,None,2026-05-30
+502,Mumbai,Hyderabad,2026-05-17,2963,Freight,340,1592,Business,Delayed,Customs,2026-05-20
+503,Mumbai,Hyderabad,2026-05-18,1585,Ground,467,1378,Retail,In Transit,Operational,2026-05-28
+504,Chennai,Kolkata,2026-05-19,2675,Air,211,111,Business,Delayed,None,2026-05-29
+505,Bangalore,Kolkata,2026-05-20,2432,Air,140,1573,Retail,Delayed,Customs,2026-05-31
+506,Mumbai,Kolkata,2026-05-21,1491,Ground,293,1909,Business,Delayed,Weather,2026-06-02
+507,Chennai,Ahmedabad,2026-05-22,1847,Ground,298,82,Business,In Transit,Customs,2026-05-24
+508,Bangalore,Hyderabad,2026-05-23,344,Ground,401,1705,Retail,Delivered,Weather,2026-05-30
+509,Chennai,Ahmedabad,2026-05-24,804,Ground,101,531,Business,Delayed,None,2026-05-25
+510,Delhi,Ahmedabad,2026-05-25,1444,Ground,304,1182,Government,In Transit,Customs,2026-05-31
+511,Mumbai,Kolkata,2026-05-26,235,Air,359,1741,Retail,In Transit,Customs,2026-06-01
+512,Delhi,Kolkata,2026-05-27,1319,Ground,28,1228,Retail,In Transit,Weather,2026-05-30
+513,Bangalore,Pune,2026-05-28,686,Air,41,1248,Retail,Delivered,Customs,2026-05-30
+514,Delhi,Pune,2026-05-29,1341,Air,355,791,Government,Delayed,Customs,2026-06-10
+515,Delhi,Ahmedabad,2026-05-30,579,Ground,303,1257,Retail,In Transit,None,2026-06-01
+516,Bangalore,Hyderabad,2026-05-31,2118,Ground,496,275,Business,Delivered,Customs,2026-06-14
+517,Chennai,Kolkata,2026-06-01,2964,Air,146,154,Business,In Transit,Operational,2026-06-14
+518,Delhi,Kolkata,2026-06-02,843,Ground,256,1616,Business,In Transit,Weather,2026-06-11
+519,Chennai,Ahmedabad,2026-06-03,2197,Ground,462,894,Retail,In Transit,Customs,2026-06-14
+520,Delhi,Pune,2026-06-04,2849,Ground,227,841,Business,In Transit,Weather,2026-06-09
+521,Chennai,Hyderabad,2026-06-05,527,Freight,236,107,Retail,In Transit,Weather,2026-06-12
+522,Bangalore,Pune,2026-06-06,1672,Air,361,1879,Business,Delivered,Weather,2026-06-18
+523,Delhi,Pune,2026-06-07,989,Freight,380,1007,Government,Delayed,Customs,2026-06-12
+524,Bangalore,Pune,2026-06-08,575,Ground,455,1250,Government,Delayed,Customs,2026-06-15
+525,Delhi,Pune,2026-06-09,2431,Freight,489,1172,Government,Delayed,Weather,2026-06-22
+526,Bangalore,Kolkata,2026-06-10,51,Ground,13,842,Government,Delayed,Operational,2026-06-14
+527,Bangalore,Kolkata,2026-06-11,424,Freight,210,1046,Retail,Delivered,Weather,2026-06-19
+528,Delhi,Pune,2026-06-12,2390,Ground,229,993,Business,Delivered,Operational,2026-06-25
+529,Delhi,Hyderabad,2026-06-13,2934,Freight,397,953,Government,Delivered,Weather,2026-06-24
+530,Delhi,Ahmedabad,2026-06-14,602,Freight,100,1797,Retail,In Transit,None,2026-06-28
+531,Mumbai,Hyderabad,2026-06-15,2415,Freight,31,140,Government,In Transit,Weather,2026-06-25
+532,Chennai,Hyderabad,2026-06-16,1575,Air,386,1428,Government,In Transit,Weather,2026-06-29
+533,Mumbai,Hyderabad,2026-06-17,1901,Freight,16,1657,Retail,Delayed,Customs,2026-06-28
+534,Mumbai,Pune,2026-06-18,430,Air,137,1081,Retail,In Transit,Operational,2026-06-28
+535,Bangalore,Kolkata,2026-06-19,1696,Ground,329,1384,Business,Delayed,None,2026-06-26
+536,Delhi,Hyderabad,2026-06-20,63,Freight,166,1027,Business,In Transit,Operational,2026-06-30
+537,Chennai,Pune,2026-06-21,553,Ground,459,944,Government,Delayed,None,2026-06-26
+538,Bangalore,Hyderabad,2026-06-22,2328,Ground,310,664,Government,In Transit,Weather,2026-07-03
+539,Mumbai,Hyderabad,2026-06-23,2058,Freight,440,733,Business,In Transit,Customs,2026-06-29
+540,Delhi,Pune,2026-06-24,179,Air,470,879,Business,Delivered,Customs,2026-06-29
+541,Bangalore,Kolkata,2026-06-25,887,Freight,481,40,Retail,In Transit,Operational,2026-07-02
+542,Delhi,Kolkata,2026-06-26,2988,Ground,100,261,Business,In Transit,Customs,2026-07-08
+543,Bangalore,Ahmedabad,2026-06-27,2090,Ground,109,474,Business,Delivered,Operational,2026-06-29
+544,Delhi,Pune,2026-06-28,77,Freight,343,982,Government,Delayed,Operational,2026-07-03
+545,Mumbai,Ahmedabad,2026-06-29,2163,Air,173,640,Business,Delivered,None,2026-07-09
+546,Chennai,Ahmedabad,2026-06-30,1302,Air,237,322,Government,Delivered,Operational,2026-07-03
+547,Mumbai,Ahmedabad,2026-07-01,310,Ground,162,1639,Business,Delayed,None,2026-07-10
+548,Chennai,Kolkata,2026-07-02,2096,Ground,393,1638,Retail,In Transit,Customs,2026-07-15
+549,Delhi,Pune,2026-07-03,1522,Air,216,822,Business,Delayed,Operational,2026-07-09
+550,Bangalore,Ahmedabad,2026-07-04,1497,Freight,264,983,Business,In Transit,Operational,2026-07-17
+551,Mumbai,Pune,2026-07-05,509,Ground,263,88,Business,In Transit,Weather,2026-07-15
+552,Chennai,Pune,2026-07-06,350,Air,292,1172,Government,Delayed,Operational,2026-07-09
+553,Mumbai,Kolkata,2026-07-07,2384,Ground,274,215,Retail,Delivered,Operational,2026-07-14
+554,Chennai,Ahmedabad,2026-07-08,679,Freight,3,159,Business,Delayed,Weather,2026-07-12
+555,Mumbai,Ahmedabad,2026-07-09,319,Air,28,1487,Government,In Transit,Weather,2026-07-23
+556,Chennai,Pune,2026-07-10,2689,Ground,326,302,Retail,Delayed,Customs,2026-07-13
+557,Chennai,Hyderabad,2026-07-11,2043,Freight,492,331,Government,Delayed,Operational,2026-07-19
+558,Delhi,Kolkata,2026-07-12,1678,Ground,428,765,Government,In Transit,Customs,2026-07-25
+559,Chennai,Kolkata,2026-07-13,1851,Freight,149,1578,Retail,Delivered,Customs,2026-07-17
+560,Delhi,Kolkata,2026-07-14,2941,Freight,28,1708,Business,Delayed,Weather,2026-07-25
+561,Chennai,Kolkata,2026-07-15,911,Air,488,296,Government,In Transit,None,2026-07-16
+562,Bangalore,Ahmedabad,2026-07-16,1330,Freight,310,80,Government,In Transit,Customs,2026-07-22
+563,Bangalore,Ahmedabad,2026-07-17,2230,Ground,438,1362,Business,Delayed,None,2026-07-27
+564,Bangalore,Hyderabad,2026-07-18,1849,Freight,65,1933,Business,Delivered,Operational,2026-07-29
+565,Chennai,Kolkata,2026-07-19,1756,Freight,356,71,Retail,Delayed,Weather,2026-07-30
+566,Delhi,Kolkata,2026-07-20,2610,Air,21,1899,Retail,Delivered,Operational,2026-07-21
+567,Delhi,Pune,2026-07-21,2410,Freight,252,172,Retail,Delivered,Operational,2026-07-26
+568,Chennai,Ahmedabad,2026-07-22,625,Freight,235,1792,Business,Delivered,Weather,2026-07-29
+569,Bangalore,Kolkata,2026-07-23,2983,Ground,227,1354,Government,Delivered,Operational,2026-07-29
+570,Bangalore,Hyderabad,2026-07-24,2053,Air,13,1857,Government,Delayed,Weather,2026-08-07
+571,Delhi,Hyderabad,2026-07-25,1357,Air,313,563,Retail,In Transit,None,2026-07-27
+572,Bangalore,Ahmedabad,2026-07-26,2006,Air,49,586,Business,In Transit,Operational,2026-08-06
+573,Mumbai,Hyderabad,2026-07-27,2784,Freight,118,1907,Government,In Transit,Weather,2026-07-31
+574,Delhi,Hyderabad,2026-07-28,2070,Air,54,1432,Retail,In Transit,Customs,2026-08-08
+575,Bangalore,Ahmedabad,2026-07-29,2262,Freight,138,1591,Government,In Transit,Operational,2026-07-31
+576,Delhi,Kolkata,2026-07-30,2402,Freight,53,641,Government,In Transit,None,2026-08-10
+577,Mumbai,Kolkata,2026-07-31,1705,Ground,44,1220,Business,Delayed,Weather,2026-08-01
+578,Delhi,Hyderabad,2026-08-01,1629,Ground,303,1405,Business,Delivered,Operational,2026-08-04
+579,Delhi,Hyderabad,2026-08-02,1897,Ground,53,333,Government,In Transit,Operational,2026-08-05
+580,Delhi,Kolkata,2026-08-03,2253,Ground,74,826,Retail,Delayed,Operational,2026-08-15
+581,Delhi,Ahmedabad,2026-08-04,1440,Ground,46,867,Business,In Transit,None,2026-08-11
+582,Mumbai,Hyderabad,2026-08-05,1792,Freight,13,116,Government,In Transit,Weather,2026-08-06
+583,Chennai,Pune,2026-08-06,1975,Freight,165,900,Business,Delivered,Customs,2026-08-15
+584,Delhi,Ahmedabad,2026-08-07,669,Air,102,1256,Business,Delivered,Customs,2026-08-18
+585,Delhi,Hyderabad,2026-08-08,1324,Freight,280,848,Business,Delivered,Customs,2026-08-14
+586,Bangalore,Hyderabad,2026-08-09,1006,Freight,258,156,Government,In Transit,Weather,2026-08-13
+587,Delhi,Pune,2026-08-10,1989,Ground,470,1049,Retail,In Transit,Customs,2026-08-13
+588,Bangalore,Pune,2026-08-11,2431,Freight,337,1030,Retail,In Transit,None,2026-08-14
+589,Chennai,Kolkata,2026-08-12,1018,Ground,356,128,Retail,Delivered,Weather,2026-08-14
+590,Mumbai,Ahmedabad,2026-08-13,2608,Air,398,566,Business,Delayed,Operational,2026-08-15
+591,Mumbai,Ahmedabad,2026-08-14,1366,Air,138,1082,Government,In Transit,None,2026-08-28
+592,Chennai,Kolkata,2026-08-15,1093,Freight,163,681,Business,In Transit,Operational,2026-08-27
+593,Mumbai,Ahmedabad,2026-08-16,331,Air,409,444,Retail,In Transit,Customs,2026-08-29
+594,Chennai,Ahmedabad,2026-08-17,2894,Freight,387,649,Retail,Delayed,None,2026-08-27
+595,Chennai,Ahmedabad,2026-08-18,2216,Air,111,280,Government,In Transit,Weather,2026-08-23
+596,Chennai,Ahmedabad,2026-08-19,1108,Ground,102,1469,Business,Delayed,None,2026-08-28
+597,Mumbai,Ahmedabad,2026-08-20,247,Ground,17,106,Retail,In Transit,Operational,2026-08-22
+598,Bangalore,Pune,2026-08-21,2582,Ground,268,484,Government,Delayed,Weather,2026-08-23
+599,Chennai,Ahmedabad,2026-08-22,1132,Ground,182,95,Business,In Transit,None,2026-09-03
+600,Delhi,Pune,2026-08-23,2934,Freight,372,490,Business,Delivered,None,2026-08-29
+601,Mumbai,Ahmedabad,2026-08-24,1234,Air,24,433,Retail,Delivered,None,2026-09-06
+602,Chennai,Kolkata,2026-08-25,1058,Freight,29,844,Retail,Delivered,None,2026-09-04
+603,Chennai,Hyderabad,2026-08-26,2788,Ground,171,914,Business,Delivered,Weather,2026-08-28
+604,Delhi,Pune,2026-08-27,1279,Freight,409,745,Business,In Transit,Operational,2026-09-08
+605,Bangalore,Ahmedabad,2026-08-28,1085,Air,228,476,Retail,Delivered,None,2026-09-01
+606,Bangalore,Kolkata,2026-08-29,539,Freight,378,1328,Business,Delayed,Weather,2026-09-04
+607,Bangalore,Hyderabad,2026-08-30,325,Air,188,1282,Retail,Delivered,Operational,2026-09-04
+608,Chennai,Pune,2026-08-31,2790,Freight,346,1720,Business,Delivered,None,2026-09-01
+609,Chennai,Hyderabad,2026-09-01,2339,Air,230,1642,Retail,Delivered,Operational,2026-09-07
+610,Chennai,Kolkata,2026-09-02,1289,Air,321,672,Government,In Transit,Operational,2026-09-03
+611,Mumbai,Pune,2026-09-03,1324,Ground,340,691,Retail,Delivered,Weather,2026-09-06
+612,Delhi,Hyderabad,2026-09-04,175,Air,119,1601,Retail,Delayed,Operational,2026-09-14
+613,Chennai,Ahmedabad,2026-09-05,266,Ground,156,1415,Government,Delivered,Weather,2026-09-10
+614,Delhi,Pune,2026-09-06,1258,Ground,272,514,Business,Delivered,None,2026-09-20
+615,Delhi,Hyderabad,2026-09-07,1296,Ground,175,1667,Government,Delivered,Operational,2026-09-17
+616,Bangalore,Kolkata,2026-09-08,2592,Freight,465,1962,Retail,Delayed,Operational,2026-09-21
+617,Mumbai,Kolkata,2026-09-09,2524,Freight,104,1088,Business,Delivered,Customs,2026-09-14
+618,Chennai,Pune,2026-09-10,968,Freight,92,1444,Government,Delayed,None,2026-09-23
+619,Bangalore,Hyderabad,2026-09-11,1367,Freight,186,1290,Business,Delayed,None,2026-09-21
+620,Bangalore,Pune,2026-09-12,2248,Air,460,1659,Business,Delivered,Customs,2026-09-18
+621,Chennai,Pune,2026-09-13,2481,Air,283,616,Government,Delayed,Customs,2026-09-25
+622,Delhi,Hyderabad,2026-09-14,1711,Freight,181,469,Business,In Transit,Weather,2026-09-24
+623,Bangalore,Hyderabad,2026-09-15,357,Air,170,504,Government,Delivered,Weather,2026-09-23
+624,Delhi,Ahmedabad,2026-09-16,1409,Air,187,665,Retail,Delivered,Operational,2026-09-21
+625,Mumbai,Hyderabad,2026-09-17,2019,Ground,175,639,Business,Delayed,Operational,2026-10-01
+626,Delhi,Kolkata,2026-09-18,2843,Ground,222,1061,Retail,Delayed,Operational,2026-09-29
+627,Mumbai,Pune,2026-09-19,941,Ground,233,1649,Retail,Delivered,Operational,2026-09-20
+628,Delhi,Pune,2026-09-20,424,Ground,162,681,Business,In Transit,Weather,2026-09-25
+629,Bangalore,Kolkata,2026-09-21,2083,Air,421,777,Government,Delayed,None,2026-09-24
+630,Bangalore,Hyderabad,2026-09-22,1414,Freight,134,308,Business,Delayed,Operational,2026-09-26
+631,Mumbai,Kolkata,2026-09-23,178,Air,391,1457,Retail,In Transit,None,2026-10-06
+632,Chennai,Kolkata,2026-09-24,1064,Air,480,740,Retail,In Transit,Operational,2026-10-02
+633,Mumbai,Ahmedabad,2026-09-25,1849,Air,224,657,Government,Delivered,Customs,2026-10-02
+634,Mumbai,Kolkata,2026-09-26,2766,Ground,153,254,Business,In Transit,Operational,2026-10-07
+635,Delhi,Pune,2026-09-27,1431,Ground,33,435,Retail,Delivered,Operational,2026-10-02
+636,Delhi,Kolkata,2026-09-28,566,Ground,55,957,Retail,In Transit,Operational,2026-09-30
+637,Mumbai,Pune,2026-09-29,1568,Freight,442,518,Retail,Delayed,Weather,2026-10-05
+638,Bangalore,Pune,2026-09-30,135,Air,7,993,Government,Delivered,Customs,2026-10-11
+639,Delhi,Pune,2026-10-01,1248,Freight,244,653,Retail,Delivered,Operational,2026-10-07
+640,Chennai,Hyderabad,2026-10-02,2408,Ground,313,1693,Retail,Delivered,Operational,2026-10-12
+641,Delhi,Ahmedabad,2026-10-03,1192,Freight,126,1039,Business,In Transit,None,2026-10-13
+642,Delhi,Pune,2026-10-04,2524,Air,12,134,Business,Delayed,Customs,2026-10-18
+643,Chennai,Pune,2026-10-05,2043,Air,16,951,Retail,Delivered,Operational,2026-10-16
+644,Mumbai,Hyderabad,2026-10-06,2211,Ground,208,693,Retail,Delivered,None,2026-10-12
+645,Chennai,Pune,2026-10-07,352,Ground,43,1756,Business,Delivered,None,2026-10-21
+646,Mumbai,Kolkata,2026-10-08,2841,Freight,373,1277,Government,Delivered,Weather,2026-10-17
+647,Mumbai,Kolkata,2026-10-09,637,Ground,484,1583,Government,Delayed,None,2026-10-20
+648,Mumbai,Ahmedabad,2026-10-10,1036,Ground,461,1054,Government,In Transit,Operational,2026-10-18
+649,Chennai,Pune,2026-10-11,1913,Air,135,225,Government,Delayed,Weather,2026-10-19
+650,Mumbai,Hyderabad,2026-10-12,394,Ground,228,1722,Government,Delivered,Weather,2026-10-13
+651,Bangalore,Kolkata,2026-10-13,863,Ground,111,266,Government,Delayed,Operational,2026-10-18
+652,Chennai,Hyderabad,2026-10-14,2037,Air,307,1602,Government,Delivered,Customs,2026-10-21
+653,Bangalore,Hyderabad,2026-10-15,2898,Air,457,777,Government,In Transit,None,2026-10-21
+654,Mumbai,Kolkata,2026-10-16,1360,Freight,160,1170,Business,In Transit,Weather,2026-10-21
+655,Delhi,Hyderabad,2026-10-17,2049,Ground,331,166,Government,In Transit,Customs,2026-10-25
+656,Mumbai,Kolkata,2026-10-18,1727,Air,264,137,Government,Delivered,Operational,2026-10-21
+657,Bangalore,Hyderabad,2026-10-19,1377,Freight,225,1954,Government,Delayed,None,2026-10-25
+658,Bangalore,Kolkata,2026-10-20,1142,Freight,471,1425,Retail,In Transit,None,2026-10-25
+659,Chennai,Pune,2026-10-21,2458,Ground,217,431,Business,Delivered,Weather,2026-10-29
+660,Delhi,Ahmedabad,2026-10-22,1059,Ground,456,1707,Business,Delivered,None,2026-10-26
+661,Chennai,Kolkata,2026-10-23,753,Freight,45,1627,Business,Delayed,None,2026-10-31
+662,Bangalore,Kolkata,2026-10-24,624,Air,214,382,Government,In Transit,None,2026-11-03
+663,Mumbai,Ahmedabad,2026-10-25,1658,Freight,59,1552,Government,Delivered,None,2026-11-08
+664,Delhi,Kolkata,2026-10-26,1162,Ground,132,156,Retail,Delayed,Operational,2026-10-28
+665,Mumbai,Kolkata,2026-10-27,737,Air,104,1218,Business,In Transit,Customs,2026-11-05
+666,Mumbai,Hyderabad,2026-10-28,2878,Air,195,1332,Government,Delayed,Operational,2026-11-10
+667,Delhi,Ahmedabad,2026-10-29,2682,Freight,413,977,Business,Delayed,Operational,2026-11-07
+668,Chennai,Pune,2026-10-30,2686,Ground,489,1524,Retail,Delivered,Weather,2026-11-13
+669,Mumbai,Kolkata,2026-10-31,538,Freight,157,38,Retail,Delivered,None,2026-11-10
+670,Bangalore,Ahmedabad,2026-11-01,1397,Freight,98,214,Retail,Delivered,Operational,2026-11-11
+671,Mumbai,Hyderabad,2026-11-02,543,Freight,226,349,Business,Delayed,None,2026-11-15
+672,Delhi,Pune,2026-11-03,1717,Air,412,1979,Government,Delivered,Operational,2026-11-09
+673,Delhi,Ahmedabad,2026-11-04,1687,Air,205,194,Government,Delayed,Operational,2026-11-08
+674,Delhi,Pune,2026-11-05,68,Ground,79,1021,Retail,Delayed,Weather,2026-11-09
+675,Chennai,Pune,2026-11-06,2494,Ground,124,468,Government,Delivered,Customs,2026-11-19
+676,Mumbai,Pune,2026-11-07,1050,Freight,471,1968,Retail,In Transit,Customs,2026-11-13
+677,Chennai,Kolkata,2026-11-08,900,Freight,428,965,Business,In Transit,Operational,2026-11-13
+678,Chennai,Kolkata,2026-11-09,1438,Freight,218,1397,Retail,In Transit,Weather,2026-11-15
+679,Delhi,Hyderabad,2026-11-10,1404,Ground,4,1542,Business,Delayed,None,2026-11-17
+680,Delhi,Hyderabad,2026-11-11,1417,Air,90,160,Retail,Delayed,None,2026-11-18
+681,Chennai,Ahmedabad,2026-11-12,871,Air,104,777,Government,Delayed,Operational,2026-11-21
+682,Mumbai,Hyderabad,2026-11-13,504,Freight,393,1940,Government,Delivered,Customs,2026-11-21
+683,Bangalore,Pune,2026-11-14,1674,Freight,119,949,Retail,Delayed,Weather,2026-11-27
+684,Chennai,Pune,2026-11-15,2822,Freight,133,112,Government,Delivered,Customs,2026-11-21
+685,Mumbai,Kolkata,2026-11-16,760,Freight,312,1987,Government,Delivered,None,2026-11-28
+686,Delhi,Pune,2026-11-17,2240,Ground,96,258,Government,In Transit,Customs,2026-11-23
+687,Delhi,Ahmedabad,2026-11-18,966,Air,468,224,Business,In Transit,None,2026-12-02
+688,Mumbai,Pune,2026-11-19,2925,Freight,434,579,Government,In Transit,Weather,2026-11-24
+689,Bangalore,Pune,2026-11-20,2702,Ground,331,1476,Business,Delivered,Weather,2026-11-21
+690,Delhi,Ahmedabad,2026-11-21,1546,Freight,143,264,Retail,Delivered,Operational,2026-11-30
+691,Delhi,Hyderabad,2026-11-22,1490,Freight,288,851,Government,Delivered,Operational,2026-12-01
+692,Delhi,Hyderabad,2026-11-23,354,Air,28,1360,Government,Delayed,Customs,2026-12-02
+693,Mumbai,Ahmedabad,2026-11-24,785,Freight,278,944,Government,Delivered,Weather,2026-12-05
+694,Chennai,Kolkata,2026-11-25,2388,Air,233,314,Retail,In Transit,Weather,2026-12-03
+695,Delhi,Pune,2026-11-26,2013,Air,17,659,Business,In Transit,Operational,2026-12-09
+696,Chennai,Ahmedabad,2026-11-27,2199,Air,59,875,Business,Delivered,None,2026-12-07
+697,Bangalore,Pune,2026-11-28,2059,Ground,90,1325,Government,Delivered,Customs,2026-12-11
+698,Delhi,Kolkata,2026-11-29,2964,Ground,492,36,Retail,In Transit,Customs,2026-12-02
+699,Delhi,Pune,2026-11-30,2939,Air,199,90,Retail,Delivered,Operational,2026-12-01
+700,Bangalore,Ahmedabad,2026-12-01,1011,Freight,362,1312,Retail,In Transit,Weather,2026-12-12
+701,Delhi,Pune,2026-12-02,1076,Air,441,1368,Retail,Delayed,Operational,2026-12-14
+702,Chennai,Hyderabad,2026-12-03,2182,Freight,26,1837,Retail,In Transit,Operational,2026-12-15
+703,Mumbai,Kolkata,2026-12-04,2425,Air,25,324,Business,Delayed,Operational,2026-12-12
+704,Chennai,Kolkata,2026-12-05,2913,Freight,394,1494,Business,Delivered,Operational,2026-12-12
+705,Mumbai,Kolkata,2026-12-06,1523,Ground,301,1050,Business,Delivered,None,2026-12-19
+706,Mumbai,Ahmedabad,2026-12-07,2551,Freight,339,1357,Government,Delayed,None,2026-12-12
+707,Chennai,Kolkata,2026-12-08,1997,Air,267,836,Retail,Delivered,Weather,2026-12-18
+708,Chennai,Hyderabad,2026-12-09,2726,Ground,461,1146,Government,Delayed,Operational,2026-12-16
+709,Chennai,Ahmedabad,2026-12-10,1227,Freight,181,840,Retail,Delivered,None,2026-12-20
+710,Chennai,Hyderabad,2026-12-11,714,Freight,456,212,Business,In Transit,Weather,2026-12-15
+711,Bangalore,Pune,2026-12-12,61,Freight,360,1796,Government,Delivered,Operational,2026-12-21
+712,Delhi,Pune,2026-12-13,1206,Freight,68,1617,Business,In Transit,Customs,2026-12-24
+713,Mumbai,Pune,2026-12-14,353,Freight,495,548,Retail,In Transit,None,2026-12-24
+714,Chennai,Pune,2026-12-15,1813,Ground,351,190,Retail,Delayed,Weather,2026-12-29
+715,Chennai,Hyderabad,2026-12-16,2880,Ground,412,1580,Retail,Delivered,Customs,2026-12-18
+716,Chennai,Ahmedabad,2026-12-17,92,Ground,459,270,Business,Delayed,Operational,2026-12-26
+717,Bangalore,Ahmedabad,2026-12-18,993,Ground,491,1808,Retail,Delivered,Operational,2026-12-27
+718,Chennai,Kolkata,2026-12-19,2440,Air,321,1430,Business,In Transit,Operational,2026-12-24
+719,Chennai,Hyderabad,2026-12-20,1399,Ground,49,1250,Government,In Transit,None,2026-12-31
+720,Chennai,Pune,2026-12-21,2595,Freight,175,560,Retail,Delivered,Weather,2026-12-22
+721,Delhi,Hyderabad,2026-12-22,2461,Freight,52,1672,Retail,Delivered,Customs,2026-12-29
+722,Bangalore,Kolkata,2026-12-23,940,Ground,102,435,Retail,Delayed,Weather,2027-01-02
+723,Chennai,Kolkata,2026-12-24,2524,Freight,216,813,Government,Delivered,None,2027-01-03
+724,Mumbai,Hyderabad,2026-12-25,1054,Ground,438,1423,Retail,Delivered,Weather,2026-12-29
+725,Mumbai,Hyderabad,2026-12-26,70,Freight,188,1187,Business,Delivered,None,2027-01-04
+726,Mumbai,Hyderabad,2026-12-27,456,Air,57,44,Business,Delayed,Operational,2027-01-02
+727,Bangalore,Ahmedabad,2026-12-28,2716,Air,47,1865,Retail,Delivered,Customs,2027-01-10
+728,Bangalore,Pune,2026-12-29,1064,Ground,159,687,Retail,In Transit,Operational,2027-01-01
+729,Mumbai,Hyderabad,2026-12-30,385,Ground,489,1116,Government,Delayed,Weather,2027-01-05
+730,Chennai,Hyderabad,2026-12-31,1888,Ground,174,651,Government,Delayed,Operational,2027-01-13
+731,Bangalore,Hyderabad,2027-01-01,1197,Freight,242,1867,Government,In Transit,Customs,2027-01-11
+732,Mumbai,Kolkata,2027-01-02,2496,Ground,282,1876,Retail,In Transit,Operational,2027-01-08
+733,Mumbai,Kolkata,2027-01-03,2890,Air,241,1136,Government,In Transit,Customs,2027-01-08
+734,Chennai,Ahmedabad,2027-01-04,1877,Freight,370,524,Government,Delivered,Customs,2027-01-06
+735,Delhi,Pune,2027-01-05,764,Ground,5,1641,Business,In Transit,Operational,2027-01-15
+736,Bangalore,Ahmedabad,2027-01-06,100,Freight,84,355,Government,Delivered,None,2027-01-16
+737,Chennai,Pune,2027-01-07,373,Freight,308,444,Business,Delayed,Weather,2027-01-09
+738,Mumbai,Kolkata,2027-01-08,838,Ground,361,518,Business,Delayed,None,2027-01-15
+739,Mumbai,Kolkata,2027-01-09,190,Freight,459,1407,Government,In Transit,None,2027-01-11
+740,Chennai,Kolkata,2027-01-10,519,Air,248,966,Business,Delivered,Operational,2027-01-22
+741,Bangalore,Ahmedabad,2027-01-11,836,Air,54,649,Retail,In Transit,Weather,2027-01-17
+742,Delhi,Hyderabad,2027-01-12,1875,Freight,161,1788,Retail,In Transit,Weather,2027-01-17
+743,Delhi,Hyderabad,2027-01-13,1407,Ground,434,1242,Government,Delivered,None,2027-01-17
+744,Mumbai,Kolkata,2027-01-14,1966,Freight,422,737,Retail,In Transit,Operational,2027-01-21
+745,Bangalore,Hyderabad,2027-01-15,1013,Air,411,1456,Business,Delayed,Weather,2027-01-23
+746,Delhi,Hyderabad,2027-01-16,422,Freight,226,358,Retail,In Transit,None,2027-01-20
+747,Bangalore,Ahmedabad,2027-01-17,2591,Freight,15,678,Government,Delivered,Weather,2027-01-18
+748,Bangalore,Pune,2027-01-18,1742,Air,224,981,Government,Delivered,Operational,2027-01-19
+749,Mumbai,Kolkata,2027-01-19,2848,Freight,61,1980,Business,Delayed,Operational,2027-01-20
+750,Delhi,Kolkata,2027-01-20,1229,Freight,122,448,Government,Delivered,Operational,2027-01-31
+751,Chennai,Ahmedabad,2027-01-21,2388,Ground,277,1826,Retail,Delivered,Weather,2027-01-22
+752,Mumbai,Ahmedabad,2027-01-22,1721,Ground,46,918,Government,Delayed,Customs,2027-01-27
+753,Delhi,Hyderabad,2027-01-23,155,Air,453,158,Business,In Transit,Weather,2027-01-27
+754,Delhi,Kolkata,2027-01-24,1493,Air,390,1736,Government,Delayed,Customs,2027-02-06
+755,Delhi,Pune,2027-01-25,2767,Air,294,961,Retail,In Transit,Operational,2027-02-08
+756,Delhi,Ahmedabad,2027-01-26,1731,Ground,62,561,Business,Delayed,None,2027-02-04
+757,Delhi,Pune,2027-01-27,51,Air,86,76,Retail,In Transit,Customs,2027-01-30
+758,Bangalore,Pune,2027-01-28,2686,Air,446,1275,Business,Delayed,Operational,2027-02-11
+759,Mumbai,Kolkata,2027-01-29,2741,Air,210,677,Government,In Transit,Operational,2027-02-05
+760,Bangalore,Kolkata,2027-01-30,2187,Ground,78,454,Business,Delayed,Customs,2027-02-10
+761,Chennai,Ahmedabad,2027-01-31,399,Freight,202,403,Business,In Transit,None,2027-02-08
+762,Delhi,Kolkata,2027-02-01,1336,Air,302,579,Government,Delayed,Operational,2027-02-07
+763,Mumbai,Kolkata,2027-02-02,1112,Freight,397,213,Retail,Delivered,Customs,2027-02-14
+764,Delhi,Kolkata,2027-02-03,2256,Air,223,1779,Government,In Transit,None,2027-02-16
+765,Mumbai,Pune,2027-02-04,2409,Freight,222,1691,Business,Delayed,None,2027-02-14
+766,Bangalore,Ahmedabad,2027-02-05,494,Ground,3,553,Government,In Transit,Operational,2027-02-18
+767,Mumbai,Hyderabad,2027-02-06,2395,Ground,478,537,Business,In Transit,Weather,2027-02-07
+768,Chennai,Pune,2027-02-07,1001,Air,6,735,Government,Delayed,Weather,2027-02-15
+769,Chennai,Kolkata,2027-02-08,85,Freight,93,770,Government,In Transit,Operational,2027-02-18
+770,Mumbai,Pune,2027-02-09,1157,Ground,8,204,Retail,Delayed,None,2027-02-12
+771,Mumbai,Kolkata,2027-02-10,1525,Air,428,1915,Business,Delivered,Operational,2027-02-18
+772,Mumbai,Kolkata,2027-02-11,1848,Air,493,311,Retail,In Transit,Customs,2027-02-23
+773,Mumbai,Pune,2027-02-12,1895,Ground,235,1378,Business,Delivered,Weather,2027-02-16
+774,Chennai,Ahmedabad,2027-02-13,1458,Ground,108,751,Government,In Transit,Customs,2027-02-21
+775,Delhi,Kolkata,2027-02-14,1245,Air,161,135,Business,In Transit,Operational,2027-02-25
+776,Mumbai,Ahmedabad,2027-02-15,1449,Freight,209,844,Retail,In Transit,Operational,2027-02-16
+777,Mumbai,Hyderabad,2027-02-16,1758,Freight,240,1092,Retail,Delayed,None,2027-02-19
+778,Chennai,Kolkata,2027-02-17,1435,Freight,331,704,Retail,Delivered,None,2027-02-23
+779,Chennai,Ahmedabad,2027-02-18,2656,Air,333,101,Business,In Transit,None,2027-02-27
+780,Bangalore,Ahmedabad,2027-02-19,2988,Ground,50,853,Retail,Delayed,Customs,2027-02-21
+781,Mumbai,Hyderabad,2027-02-20,2238,Air,11,352,Retail,In Transit,None,2027-03-03
+782,Bangalore,Ahmedabad,2027-02-21,2984,Ground,351,576,Retail,Delayed,Operational,2027-02-22
+783,Chennai,Ahmedabad,2027-02-22,1350,Freight,156,354,Government,In Transit,None,2027-03-04
+784,Chennai,Hyderabad,2027-02-23,2823,Freight,492,551,Government,Delivered,Weather,2027-02-26
+785,Delhi,Kolkata,2027-02-24,1293,Ground,70,240,Business,Delivered,None,2027-02-28
+786,Mumbai,Ahmedabad,2027-02-25,570,Ground,169,654,Business,In Transit,Customs,2027-03-08
+787,Bangalore,Ahmedabad,2027-02-26,1856,Air,272,1789,Retail,Delayed,Weather,2027-03-03
+788,Chennai,Ahmedabad,2027-02-27,59,Freight,68,1776,Government,In Transit,Weather,2027-03-02
+789,Chennai,Pune,2027-02-28,1033,Air,355,342,Retail,Delayed,Weather,2027-03-13
+790,Bangalore,Hyderabad,2027-03-01,2475,Air,252,1894,Retail,In Transit,Customs,2027-03-11
+791,Delhi,Pune,2027-03-02,1706,Air,48,22,Government,Delayed,Operational,2027-03-13
+792,Chennai,Hyderabad,2027-03-03,1710,Freight,184,1737,Government,Delivered,None,2027-03-05
+793,Mumbai,Kolkata,2027-03-04,2779,Air,320,225,Government,In Transit,Weather,2027-03-06
+794,Chennai,Kolkata,2027-03-05,2681,Air,187,1875,Business,Delivered,Weather,2027-03-12
+795,Mumbai,Ahmedabad,2027-03-06,2249,Air,90,59,Business,Delivered,Weather,2027-03-15
+796,Bangalore,Hyderabad,2027-03-07,769,Air,446,78,Retail,In Transit,Operational,2027-03-17
+797,Mumbai,Kolkata,2027-03-08,1122,Air,332,970,Business,In Transit,Operational,2027-03-10
+798,Bangalore,Hyderabad,2027-03-09,908,Air,139,593,Government,Delayed,Customs,2027-03-16
+799,Mumbai,Kolkata,2027-03-10,1366,Freight,357,663,Government,Delayed,Operational,2027-03-17
+800,Bangalore,Pune,2027-03-11,1653,Air,89,1550,Business,Delivered,None,2027-03-22
+801,Mumbai,Kolkata,2027-03-12,99,Ground,274,1615,Retail,Delayed,Customs,2027-03-19
+802,Delhi,Pune,2027-03-13,2761,Air,19,1927,Retail,Delayed,Customs,2027-03-16
+803,Mumbai,Kolkata,2027-03-14,2628,Air,471,862,Business,In Transit,None,2027-03-26
+804,Mumbai,Ahmedabad,2027-03-15,2954,Freight,311,1165,Retail,Delayed,None,2027-03-22
+805,Delhi,Pune,2027-03-16,195,Freight,358,1522,Retail,Delivered,None,2027-03-17
+806,Chennai,Kolkata,2027-03-17,964,Ground,374,638,Retail,Delayed,Customs,2027-03-27
+807,Chennai,Ahmedabad,2027-03-18,1512,Ground,466,115,Government,Delivered,Customs,2027-03-19
+808,Mumbai,Pune,2027-03-19,2339,Freight,154,1902,Government,In Transit,Customs,2027-03-24
+809,Delhi,Ahmedabad,2027-03-20,630,Freight,390,1457,Business,Delivered,None,2027-03-22
+810,Mumbai,Hyderabad,2027-03-21,2784,Air,260,1278,Government,Delayed,None,2027-03-30
+811,Bangalore,Hyderabad,2027-03-22,1634,Freight,108,917,Retail,In Transit,Weather,2027-03-29
+812,Bangalore,Pune,2027-03-23,532,Ground,371,1105,Government,Delayed,Operational,2027-03-27
+813,Mumbai,Kolkata,2027-03-24,1299,Air,285,1299,Business,In Transit,Weather,2027-03-28
+814,Chennai,Pune,2027-03-25,722,Ground,59,580,Government,In Transit,None,2027-03-27
+815,Chennai,Ahmedabad,2027-03-26,680,Air,125,924,Retail,Delayed,Customs,2027-03-31
+816,Mumbai,Kolkata,2027-03-27,2758,Freight,354,367,Retail,Delayed,None,2027-03-31
+817,Mumbai,Hyderabad,2027-03-28,711,Ground,273,690,Business,In Transit,Operational,2027-04-09
+818,Bangalore,Kolkata,2027-03-29,2902,Air,107,1167,Government,In Transit,Weather,2027-04-11
+819,Chennai,Hyderabad,2027-03-30,2516,Air,299,1525,Government,Delayed,Weather,2027-03-31
+820,Mumbai,Kolkata,2027-03-31,1037,Freight,245,336,Government,Delivered,Customs,2027-04-12
+821,Bangalore,Kolkata,2027-04-01,1596,Freight,336,1547,Retail,Delayed,Weather,2027-04-09
+822,Chennai,Kolkata,2027-04-02,699,Freight,450,738,Business,In Transit,Weather,2027-04-05
+823,Delhi,Ahmedabad,2027-04-03,1018,Ground,418,1091,Government,Delayed,None,2027-04-17
+824,Bangalore,Ahmedabad,2027-04-04,2687,Air,247,1452,Retail,Delivered,Weather,2027-04-10
+825,Chennai,Pune,2027-04-05,1150,Freight,8,1975,Retail,Delayed,Weather,2027-04-09
+826,Chennai,Pune,2027-04-06,2606,Ground,141,1179,Retail,In Transit,Weather,2027-04-15
+827,Bangalore,Hyderabad,2027-04-07,490,Ground,362,1244,Government,Delayed,Customs,2027-04-14
+828,Delhi,Ahmedabad,2027-04-08,970,Ground,8,269,Government,In Transit,Customs,2027-04-17
+829,Bangalore,Hyderabad,2027-04-09,819,Freight,478,333,Government,In Transit,None,2027-04-19
+830,Chennai,Pune,2027-04-10,1393,Freight,352,1912,Government,Delayed,Weather,2027-04-13
+831,Mumbai,Hyderabad,2027-04-11,1876,Air,484,1411,Government,In Transit,Customs,2027-04-12
+832,Mumbai,Pune,2027-04-12,312,Air,495,1472,Government,In Transit,Customs,2027-04-17
+833,Bangalore,Ahmedabad,2027-04-13,1627,Freight,94,1873,Government,Delivered,None,2027-04-16
+834,Chennai,Kolkata,2027-04-14,2734,Ground,321,826,Government,Delivered,Operational,2027-04-20
+835,Mumbai,Ahmedabad,2027-04-15,2556,Ground,427,1523,Government,Delivered,Weather,2027-04-23
+836,Chennai,Hyderabad,2027-04-16,1048,Ground,39,1357,Retail,Delivered,Customs,2027-04-27
+837,Bangalore,Hyderabad,2027-04-17,749,Air,81,1543,Government,In Transit,None,2027-04-30
+838,Mumbai,Ahmedabad,2027-04-18,2399,Ground,187,1764,Business,Delayed,None,2027-04-22
+839,Chennai,Ahmedabad,2027-04-19,1653,Air,84,1398,Retail,In Transit,None,2027-04-24
+840,Mumbai,Pune,2027-04-20,1291,Air,88,504,Government,In Transit,Customs,2027-04-25
+841,Bangalore,Hyderabad,2027-04-21,1175,Ground,242,1254,Business,In Transit,Weather,2027-04-25
+842,Chennai,Hyderabad,2027-04-22,2651,Ground,342,1747,Government,Delayed,Operational,2027-04-26
+843,Mumbai,Ahmedabad,2027-04-23,2385,Freight,93,63,Business,Delivered,Weather,2027-04-27
+844,Bangalore,Kolkata,2027-04-24,1240,Freight,86,1584,Business,In Transit,None,2027-04-28
+845,Mumbai,Hyderabad,2027-04-25,2718,Ground,44,590,Business,In Transit,None,2027-04-29
+846,Mumbai,Kolkata,2027-04-26,1055,Air,137,602,Business,Delivered,Operational,2027-05-01
+847,Delhi,Ahmedabad,2027-04-27,85,Air,421,1135,Retail,In Transit,Weather,2027-04-29
+848,Delhi,Ahmedabad,2027-04-28,793,Air,74,1308,Retail,Delayed,None,2027-04-30
+849,Bangalore,Pune,2027-04-29,1814,Air,36,914,Business,In Transit,None,2027-05-08
+850,Delhi,Hyderabad,2027-04-30,402,Air,101,239,Government,In Transit,Weather,2027-05-02
+851,Bangalore,Kolkata,2027-05-01,1972,Freight,476,1945,Business,Delivered,None,2027-05-07
+852,Delhi,Pune,2027-05-02,122,Ground,156,944,Retail,In Transit,Weather,2027-05-04
+853,Mumbai,Hyderabad,2027-05-03,2745,Freight,426,1485,Government,In Transit,None,2027-05-08
+854,Bangalore,Pune,2027-05-04,1426,Air,255,420,Retail,Delayed,Weather,2027-05-08
+855,Bangalore,Ahmedabad,2027-05-05,1964,Air,171,1443,Retail,Delivered,Operational,2027-05-17
+856,Mumbai,Hyderabad,2027-05-06,1143,Air,469,746,Government,Delivered,None,2027-05-13
+857,Bangalore,Pune,2027-05-07,2522,Air,216,1010,Business,Delayed,Operational,2027-05-14
+858,Bangalore,Pune,2027-05-08,757,Ground,170,918,Business,In Transit,None,2027-05-21
+859,Delhi,Kolkata,2027-05-09,1854,Air,252,1832,Business,Delivered,None,2027-05-15
+860,Bangalore,Pune,2027-05-10,2658,Ground,360,1619,Business,Delivered,Customs,2027-05-20
+861,Chennai,Hyderabad,2027-05-11,2925,Air,322,877,Government,In Transit,Weather,2027-05-16
+862,Mumbai,Hyderabad,2027-05-12,1005,Ground,55,823,Government,In Transit,Operational,2027-05-13
+863,Delhi,Kolkata,2027-05-13,2614,Freight,456,509,Government,Delivered,Operational,2027-05-25
+864,Delhi,Hyderabad,2027-05-14,2525,Air,432,1528,Retail,In Transit,Operational,2027-05-17
+865,Chennai,Ahmedabad,2027-05-15,209,Ground,91,1800,Government,Delivered,Weather,2027-05-24
+866,Mumbai,Hyderabad,2027-05-16,2246,Freight,278,1513,Business,In Transit,Customs,2027-05-30
+867,Mumbai,Hyderabad,2027-05-17,2873,Air,101,1617,Retail,In Transit,Operational,2027-05-18
+868,Delhi,Pune,2027-05-18,1785,Air,155,957,Business,Delayed,Weather,2027-05-23
+869,Bangalore,Pune,2027-05-19,1635,Air,377,863,Business,In Transit,None,2027-05-21
+870,Delhi,Hyderabad,2027-05-20,116,Ground,349,1725,Government,Delayed,Operational,2027-05-24
+871,Mumbai,Kolkata,2027-05-21,2478,Ground,451,1488,Government,In Transit,Operational,2027-06-04
+872,Chennai,Pune,2027-05-22,107,Freight,364,1312,Business,Delivered,Customs,2027-06-05
+873,Delhi,Kolkata,2027-05-23,391,Ground,141,286,Business,Delivered,Operational,2027-06-03
+874,Mumbai,Hyderabad,2027-05-24,1203,Ground,173,73,Retail,In Transit,Operational,2027-05-25
+875,Delhi,Hyderabad,2027-05-25,2824,Air,10,547,Government,In Transit,None,2027-05-28
+876,Bangalore,Ahmedabad,2027-05-26,1245,Air,228,1563,Retail,Delivered,Weather,2027-06-05
+877,Delhi,Pune,2027-05-27,2867,Air,265,635,Retail,In Transit,Weather,2027-06-03
+878,Delhi,Hyderabad,2027-05-28,2711,Air,438,1102,Retail,Delayed,Customs,2027-06-07
+879,Mumbai,Ahmedabad,2027-05-29,1282,Air,248,1868,Business,Delayed,None,2027-06-01
+880,Mumbai,Pune,2027-05-30,2451,Air,247,1083,Retail,Delayed,Weather,2027-06-03
+881,Mumbai,Hyderabad,2027-05-31,1544,Air,155,1280,Retail,Delayed,None,2027-06-02
+882,Delhi,Hyderabad,2027-06-01,1871,Freight,34,974,Business,Delayed,Weather,2027-06-04
+883,Bangalore,Pune,2027-06-02,165,Freight,499,405,Government,In Transit,None,2027-06-11
+884,Chennai,Pune,2027-06-03,711,Freight,129,1649,Government,In Transit,Customs,2027-06-06
+885,Chennai,Pune,2027-06-04,1515,Freight,160,753,Retail,Delayed,Operational,2027-06-15
+886,Mumbai,Hyderabad,2027-06-05,2550,Air,89,735,Business,In Transit,Customs,2027-06-10
+887,Mumbai,Hyderabad,2027-06-06,1918,Freight,93,669,Government,In Transit,Weather,2027-06-08
+888,Delhi,Ahmedabad,2027-06-07,2384,Air,327,319,Retail,Delayed,Customs,2027-06-11
+889,Chennai,Kolkata,2027-06-08,1066,Freight,241,414,Retail,In Transit,Operational,2027-06-20
+890,Mumbai,Pune,2027-06-09,360,Ground,323,1250,Business,In Transit,Customs,2027-06-22
+891,Bangalore,Hyderabad,2027-06-10,257,Freight,468,1379,Retail,In Transit,Weather,2027-06-17
+892,Bangalore,Hyderabad,2027-06-11,2715,Freight,404,612,Government,Delayed,Weather,2027-06-25
+893,Mumbai,Pune,2027-06-12,2543,Air,117,1773,Business,In Transit,Customs,2027-06-19
+894,Mumbai,Kolkata,2027-06-13,2767,Freight,94,533,Government,Delivered,Operational,2027-06-25
+895,Chennai,Pune,2027-06-14,682,Ground,163,1221,Government,Delivered,Customs,2027-06-17
+896,Chennai,Kolkata,2027-06-15,2152,Air,99,415,Government,Delayed,Operational,2027-06-20
+897,Delhi,Hyderabad,2027-06-16,706,Air,113,390,Retail,Delivered,None,2027-06-17
+898,Chennai,Kolkata,2027-06-17,1473,Freight,359,877,Retail,Delayed,Operational,2027-06-27
+899,Bangalore,Ahmedabad,2027-06-18,1981,Air,91,810,Government,Delivered,None,2027-06-28
+900,Bangalore,Hyderabad,2027-06-19,2612,Air,346,677,Government,Delivered,Customs,2027-06-29
+901,Mumbai,Ahmedabad,2027-06-20,1729,Air,206,1361,Business,Delivered,Operational,2027-07-01
+902,Chennai,Pune,2027-06-21,286,Air,17,755,Business,Delayed,None,2027-06-22
+903,Delhi,Pune,2027-06-22,397,Air,274,1412,Retail,Delayed,None,2027-06-27
+904,Bangalore,Pune,2027-06-23,2724,Air,173,403,Retail,In Transit,None,2027-07-06
+905,Bangalore,Kolkata,2027-06-24,679,Ground,116,81,Business,Delayed,Weather,2027-07-04
+906,Delhi,Hyderabad,2027-06-25,1590,Freight,349,1849,Government,Delivered,Customs,2027-07-04
+907,Delhi,Pune,2027-06-26,2053,Ground,468,524,Retail,Delivered,None,2027-06-27
+908,Bangalore,Pune,2027-06-27,1321,Air,181,258,Government,Delayed,Operational,2027-06-28
+909,Bangalore,Hyderabad,2027-06-28,413,Air,91,214,Business,Delayed,None,2027-07-02
+910,Delhi,Pune,2027-06-29,2418,Freight,82,697,Retail,Delayed,Weather,2027-07-03
+911,Bangalore,Ahmedabad,2027-06-30,335,Ground,324,1265,Retail,In Transit,Customs,2027-07-02
+912,Mumbai,Hyderabad,2027-07-01,198,Freight,449,80,Business,Delivered,Weather,2027-07-10
+913,Mumbai,Hyderabad,2027-07-02,1157,Ground,114,1172,Retail,In Transit,Weather,2027-07-16
+914,Delhi,Hyderabad,2027-07-03,2503,Air,257,1009,Business,In Transit,Weather,2027-07-12
+915,Chennai,Ahmedabad,2027-07-04,505,Freight,58,704,Retail,Delivered,Operational,2027-07-17
+916,Delhi,Hyderabad,2027-07-05,1816,Freight,154,175,Business,Delivered,Customs,2027-07-18
+917,Delhi,Ahmedabad,2027-07-06,849,Air,365,1960,Retail,Delayed,Customs,2027-07-08
+918,Chennai,Hyderabad,2027-07-07,1234,Freight,404,1421,Government,Delayed,Operational,2027-07-21
+919,Chennai,Kolkata,2027-07-08,1062,Ground,116,1665,Government,In Transit,Customs,2027-07-17
+920,Chennai,Pune,2027-07-09,2881,Ground,343,1824,Government,Delayed,Weather,2027-07-15
+921,Mumbai,Kolkata,2027-07-10,2557,Ground,266,942,Retail,Delayed,Customs,2027-07-18
+922,Bangalore,Pune,2027-07-11,1573,Ground,315,887,Retail,Delivered,Operational,2027-07-21
+923,Mumbai,Ahmedabad,2027-07-12,2835,Air,203,922,Government,Delivered,Weather,2027-07-25
+924,Bangalore,Kolkata,2027-07-13,2606,Freight,41,1833,Government,Delayed,Operational,2027-07-26
+925,Mumbai,Hyderabad,2027-07-14,530,Ground,105,1629,Business,Delivered,None,2027-07-18
+926,Bangalore,Pune,2027-07-15,1736,Air,389,1018,Business,Delayed,Weather,2027-07-17
+927,Mumbai,Pune,2027-07-16,2211,Freight,378,1480,Business,Delivered,Weather,2027-07-18
+928,Chennai,Kolkata,2027-07-17,2846,Freight,193,994,Government,Delivered,Customs,2027-07-26
+929,Delhi,Ahmedabad,2027-07-18,1651,Air,401,1250,Government,Delivered,Weather,2027-07-19
+930,Mumbai,Kolkata,2027-07-19,2458,Air,278,407,Government,Delivered,Operational,2027-07-31
+931,Bangalore,Ahmedabad,2027-07-20,390,Ground,354,1523,Business,Delayed,Customs,2027-07-27
+932,Chennai,Ahmedabad,2027-07-21,2867,Freight,237,1834,Retail,In Transit,None,2027-08-01
+933,Mumbai,Pune,2027-07-22,2060,Freight,425,906,Government,Delivered,Operational,2027-08-05
+934,Mumbai,Kolkata,2027-07-23,2858,Air,221,857,Retail,Delayed,None,2027-07-26
+935,Chennai,Kolkata,2027-07-24,2546,Freight,68,1383,Retail,Delayed,None,2027-07-27
+936,Mumbai,Ahmedabad,2027-07-25,1916,Ground,197,1912,Retail,Delivered,None,2027-07-27
+937,Delhi,Kolkata,2027-07-26,884,Freight,256,359,Business,In Transit,Weather,2027-08-09
+938,Mumbai,Hyderabad,2027-07-27,1253,Air,139,223,Retail,Delivered,Operational,2027-08-06
+939,Delhi,Hyderabad,2027-07-28,1775,Air,312,180,Government,Delayed,Operational,2027-08-03
+940,Delhi,Kolkata,2027-07-29,1739,Ground,435,1583,Business,In Transit,Weather,2027-08-11
+941,Chennai,Kolkata,2027-07-30,360,Ground,149,411,Government,Delayed,Customs,2027-08-09
+942,Mumbai,Ahmedabad,2027-07-31,311,Freight,99,788,Government,Delivered,None,2027-08-02
+943,Chennai,Hyderabad,2027-08-01,1492,Freight,76,1720,Business,In Transit,Operational,2027-08-11
+944,Mumbai,Hyderabad,2027-08-02,455,Air,282,594,Government,Delayed,Weather,2027-08-06
+945,Mumbai,Pune,2027-08-03,2240,Ground,371,553,Government,Delayed,None,2027-08-13
+946,Bangalore,Ahmedabad,2027-08-04,391,Ground,403,1113,Business,Delayed,Customs,2027-08-13
+947,Mumbai,Pune,2027-08-05,1389,Ground,109,912,Government,Delivered,Customs,2027-08-14
+948,Chennai,Hyderabad,2027-08-06,293,Freight,188,424,Retail,In Transit,None,2027-08-12
+949,Delhi,Ahmedabad,2027-08-07,539,Ground,199,627,Government,Delivered,Customs,2027-08-20
+950,Mumbai,Kolkata,2027-08-08,61,Air,303,1718,Retail,Delivered,Operational,2027-08-12
+951,Bangalore,Ahmedabad,2027-08-09,610,Air,327,1634,Government,Delivered,Operational,2027-08-16
+952,Chennai,Kolkata,2027-08-10,91,Freight,154,1560,Business,In Transit,Operational,2027-08-24
+953,Mumbai,Kolkata,2027-08-11,2775,Freight,40,847,Business,Delivered,Customs,2027-08-12
+954,Chennai,Ahmedabad,2027-08-12,643,Ground,133,1163,Government,Delivered,Operational,2027-08-24
+955,Bangalore,Kolkata,2027-08-13,1502,Freight,405,1857,Business,Delivered,Weather,2027-08-17
+956,Bangalore,Pune,2027-08-14,1876,Air,462,709,Government,Delivered,Operational,2027-08-19
+957,Chennai,Hyderabad,2027-08-15,1743,Ground,132,1731,Business,Delayed,Operational,2027-08-23
+958,Mumbai,Kolkata,2027-08-16,183,Air,279,921,Retail,Delivered,Customs,2027-08-28
+959,Delhi,Pune,2027-08-17,997,Ground,362,1260,Government,Delayed,Operational,2027-08-19
+960,Bangalore,Kolkata,2027-08-18,122,Freight,84,75,Retail,Delivered,None,2027-08-30
+961,Mumbai,Hyderabad,2027-08-19,448,Ground,399,385,Retail,In Transit,Weather,2027-08-24
+962,Mumbai,Pune,2027-08-20,1478,Ground,242,1742,Government,Delayed,Customs,2027-08-26
+963,Delhi,Hyderabad,2027-08-21,2675,Air,116,1547,Retail,Delayed,Weather,2027-08-26
+964,Bangalore,Hyderabad,2027-08-22,2956,Air,109,1787,Government,Delayed,None,2027-09-04
+965,Bangalore,Pune,2027-08-23,179,Ground,221,1810,Retail,Delayed,Customs,2027-09-01
+966,Mumbai,Pune,2027-08-24,1861,Freight,392,1968,Government,In Transit,Customs,2027-09-03
+967,Mumbai,Pune,2027-08-25,2051,Freight,41,474,Government,Delivered,Operational,2027-08-26
+968,Delhi,Ahmedabad,2027-08-26,315,Air,368,123,Business,Delayed,Weather,2027-09-09
+969,Delhi,Pune,2027-08-27,1610,Freight,147,96,Government,In Transit,None,2027-08-30
+970,Bangalore,Pune,2027-08-28,2035,Air,112,249,Government,Delayed,None,2027-09-11
+971,Chennai,Pune,2027-08-29,842,Freight,103,1957,Retail,Delivered,Customs,2027-08-31
+972,Bangalore,Pune,2027-08-30,2350,Ground,46,1301,Government,Delayed,Operational,2027-09-11
+973,Mumbai,Kolkata,2027-08-31,2919,Air,412,1307,Business,In Transit,Customs,2027-09-13
+974,Bangalore,Ahmedabad,2027-09-01,1362,Air,494,350,Retail,Delivered,Customs,2027-09-04
+975,Chennai,Hyderabad,2027-09-02,213,Ground,475,1225,Retail,In Transit,Customs,2027-09-12
+976,Delhi,Pune,2027-09-03,144,Air,324,912,Business,Delivered,Customs,2027-09-12
+977,Chennai,Kolkata,2027-09-04,1855,Freight,378,1811,Retail,Delivered,None,2027-09-17
+978,Chennai,Kolkata,2027-09-05,2930,Freight,271,1593,Retail,Delivered,None,2027-09-19
+979,Chennai,Kolkata,2027-09-06,1183,Air,483,707,Retail,Delayed,Customs,2027-09-15
+980,Delhi,Hyderabad,2027-09-07,2433,Freight,421,46,Retail,In Transit,Customs,2027-09-17
+981,Chennai,Pune,2027-09-08,871,Air,385,1319,Business,In Transit,Operational,2027-09-10
+982,Chennai,Ahmedabad,2027-09-09,287,Ground,195,1695,Business,In Transit,Customs,2027-09-23
+983,Chennai,Ahmedabad,2027-09-10,2478,Air,367,318,Retail,Delivered,None,2027-09-13
+984,Mumbai,Kolkata,2027-09-11,2996,Ground,280,976,Retail,Delayed,Weather,2027-09-25
+985,Chennai,Hyderabad,2027-09-12,2580,Freight,283,818,Business,Delivered,None,2027-09-16
+986,Delhi,Hyderabad,2027-09-13,2010,Ground,40,1134,Business,In Transit,Operational,2027-09-22
+987,Chennai,Hyderabad,2027-09-14,2999,Freight,447,499,Business,Delayed,None,2027-09-17
+988,Chennai,Ahmedabad,2027-09-15,1098,Air,189,592,Retail,Delayed,Weather,2027-09-28
+989,Delhi,Kolkata,2027-09-16,1726,Freight,164,477,Retail,Delayed,Customs,2027-09-23
+990,Chennai,Pune,2027-09-17,2579,Air,482,1494,Government,In Transit,Weather,2027-09-29
+991,Delhi,Ahmedabad,2027-09-18,1013,Air,477,384,Business,Delayed,Customs,2027-09-21
+992,Chennai,Kolkata,2027-09-19,586,Ground,24,878,Retail,Delayed,Customs,2027-09-26
+993,Delhi,Kolkata,2027-09-20,1653,Ground,24,1718,Business,Delivered,None,2027-09-27
+994,Chennai,Pune,2027-09-21,2029,Ground,490,370,Retail,Delivered,None,2027-09-30
+995,Chennai,Pune,2027-09-22,177,Ground,4,1698,Business,Delayed,None,2027-09-24
+996,Mumbai,Pune,2027-09-23,141,Freight,323,1443,Retail,Delayed,Operational,2027-10-06
+997,Mumbai,Hyderabad,2027-09-24,592,Freight,290,272,Government,Delivered,None,2027-09-30
+998,Chennai,Pune,2027-09-25,895,Freight,441,800,Government,Delivered,Operational,2027-10-04
+999,Chennai,Kolkata,2027-09-26,1731,Air,433,1924,Business,Delivered,None,2027-10-08
+1000,Bangalore,Pune,2027-09-27,1901,Freight,471,822,Retail,In Transit,Customs,2027-10-09
